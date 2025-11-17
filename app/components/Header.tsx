@@ -11,7 +11,7 @@ const Header = () => {
     setClick(!click);
   };
   return (
-    <header className="flex justify-between items- top-0 p-5 shadow-lg fixed left-0 right-0 bg-white z-20">
+    <header className="flex justify-between items- top-0 p-5 shadow-lg fixed left-0 right-0 bg-white dark:bg-red-400 z-20">
       <div>
         <Link href="/">
           <Image src={JamblifyLogo} alt="Jamblify Logo" width={50} height={50} />
