@@ -9,6 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@google/generative-ai": "^0.24.1",
     "@next/font": "^14.2.15",
     "aos": "^2.3.4",
     "appwrite": "^21.4.0",

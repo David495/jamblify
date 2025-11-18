@@ -43,7 +43,7 @@ const Dashboard = () => {
         </div>
       </header>
 
-      <main className="bg-white dark:bg-gray-900 transition-colors duration-300 flex">
+      <main className="transition-colors duration-300 flex">
         <SideBar setOpenPage={setOpenPage} />
         <div className="ml-[20%] p-5 w-full">
           {renderPage()}

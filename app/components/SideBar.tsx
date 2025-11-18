@@ -52,6 +52,7 @@ const SideBar = ({ setOpenPage }: { setOpenPage: (page: string) => void }) => {
           <Timer />
           <h1>Simulator</h1>
         </button>
+        
 
         <button
           className="flex items-center p-4 gap-2 text-white cursor-pointer focus:bg-blue-700 hover:bg-blue-400 w-full"
