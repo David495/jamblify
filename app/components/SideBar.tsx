@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, {useState} from "react";
 import {
   Home,
   Pen,
@@ -14,12 +14,18 @@ import {
 } from "lucide-react";
 
 const SideBar = ({ setOpenPage }: { setOpenPage: (page: string) => void }) => {
+   const [isOpen, setIsOpen] = useState(true);
+  
+    const handleIsopen = () => {
+      setIsOpen(!isOpen);
+    }
   return (
-    <aside className="bg-[#114c73] dark:bg-blue-800 w-[30%] md:w-[20%] h-screen transition-colors duration-300 fixed">
-      <div className="flex justify-end p-4 text-white cursor-pointer">
+    <>
+      <main>
+             <div className="flex justify-end p-4 cursor-pointer" onClick={handleIsopen}>
         <PanelLeft />
-      </div>
-
+        </div>
+      <aside className={`bg-[#114c73] dark:bg-blue-800 w-[30%] md:w-[20%] h-screen transition-colors duration-300 fixed -left-[400px] ${isOpen ? 'left-[.5px]' : ''} `}>
       <div>
         <button
           className="flex items-center p-4 gap-2 text-white cursor-pointer focus:bg-blue-700 hover:bg-blue-400 w-full"
@@ -98,7 +104,9 @@ const SideBar = ({ setOpenPage }: { setOpenPage: (page: string) => void }) => {
           <h1>Help</h1>
         </button>
       </div>
-    </aside>
+        </aside>
+        </main>
+    </>
   );
 };
 
