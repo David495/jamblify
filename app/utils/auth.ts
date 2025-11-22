@@ -30,7 +30,7 @@ export  async function LogOut() {
 export async function getCurrentUser() {
     try {
         await account.get();
-    } catch (error) {
+    } catch {
         return null;
     }
 }

@@ -8,8 +8,6 @@ import Image from 'next/image';
 // import {useForm, ValidationError} from '@formspree/react'
 
 
-
-
 const ContactFormLayout = () => {
     useEffect(() => {
         AOS.init({

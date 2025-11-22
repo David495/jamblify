@@ -1,4 +1,4 @@
-export default {
+const config = {
   // ...
   darkMode: "class",
   content: [
@@ -7,4 +7,6 @@ export default {
   ],
   theme: {},
   plugins: [],
-}; import("tailwindcss").Config;
+};
+
+export default config;

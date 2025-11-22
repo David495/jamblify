@@ -1,5 +1,4 @@
 import React from 'react'
-import Aos from 'aos';
 import 'aos/dist/aos.css';
 interface PageprefixProps {
   Page?: string;
@@ -17,4 +16,4 @@ const Pageprefix : React.FC<PageprefixProps> = ({Page}) => {
   )
 }
 
-export default Pageprefix
+export default Pageprefix;
