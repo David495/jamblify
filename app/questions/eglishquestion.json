@@ -1,282 +1,282 @@
 [
-    {
-        "id": 1,
-        "question": "Choose the option that has the opposite meaning to the underlined word: The witness gave a rather **_vague_** account of the incident.",
-        "answers": ["truthful", "precise", "general", "complex"],
-        "answer": "precise",
-        "explanation": "Vague means unclear or indefinite. Its direct opposite (antonym) is precise, meaning exact and accurate."
-    },
-    {
-        "id": 2,
-        "question": "Choose the option that best completes the sentence: Neither John nor his brothers ____ present at the meeting.",
-        "answers": ["was", "is", "has been", "were"],
-        "answer": "were",
-        "explanation": "This is a rule of concord. When using 'Neither... nor...', the verb agrees with the nearest subject ('his brothers,' which is plural), requiring the plural verb 'were'."
-    },
-    {
-        "id": 3,
-        "question": "Choose the option that has the same vowel sound as the one underlined in the word p**oo**l.",
-        "answers": ["foot", "put", "full", "food"],
-        "answer": "food",
-        "explanation": "The sound in p**oo**l is the long 'u' sound /u:/ (like in food), whereas the other options contain the short 'u' sound /ʊ/ (like in book or foot)."
-    },
-    {
-        "id": 4,
-        "question": "Choose the option with the nearest meaning to the underlined word: The student was **_penitent_** and apologized profusely.",
-        "answers": ["defiant", "remorseful", "excited", "hesitant"],
-        "answer": "remorseful",
-        "explanation": "Penitent means feeling or showing sorrow and regret for having done wrong; hence, it is synonymous with remorseful."
-    },
-    {
-        "id": 5,
-        "question": "Identify the word where the primary stress is on the **first syllable**.",
-        "answers": ["re**fu**sal", "**cul**tivate", "deci**sion**", "in**ves**tigate"],
-        "answer": "cultivate",
-        "explanation": "The stress falls on the first syllable (CUL-ti-vate). For the others, the stress is on the second or third syllable."
-    },
-    {
-        "id": 6,
-        "question": "Choose the option that best completes the sentence: She is averse ____ taking criticism from her junior colleagues.",
-        "answers": ["to", "at", "with", "about"],
-        "answer": "to",
-        "explanation": "The correct preposition that follows the adjective 'averse' (meaning having a strong dislike of or opposition to something) is 'to'."
-    },
-    {
-        "id": 7,
-        "question": "In a sentence like 'She drives a yellow taxi,' the word 'yellow' functions as a(n):",
-        "answers": ["Noun", "Adverb", "Adjective", "Preposition"],
-        "answer": "Adjective",
-        "explanation": "An adjective modifies a noun; 'yellow' describes the noun 'taxi'."
-    },
-    {
-        "id": 8,
-        "question": "The plural form of the word **_sheep_** is:",
-        "answers": ["sheeps", "sheep", "sheepi", "sheepes"],
-        "answer": "sheep",
-        "explanation": "Sheep is one of the nouns whose singular and plural forms are identical."
-    },
-    {
-        "id": 9,
-        "question": "Which word contains the consonant sound /ʃ/ (sh)?",
-        "answers": ["Measure", "Garage", "Chef", "Judge"],
-        "answer": "Chef",
-        "explanation": "The word 'chef' is pronounced /ʃɛf/ (sh-ef). 'Measure' has /ʒ/, and 'Judge' has /dʒ/."
-    },
-    {
-        "id": 10,
-        "question": "Choose the option with the opposite meaning to the underlined word: Her argument was quite **_flimsy_**.",
-        "answers": ["strong", "weak", "transparent", "false"],
-        "answer": "strong",
-        "explanation": "Flimsy means weak and easily damaged or challenged. The opposite is strong."
-    },
-    {
-        "id": 11,
-        "question": "Choose the word with the primary stress on the **second syllable**.",
-        "answers": ["**Coun**sel", "Per**mit** (verb)", "**Ta**ble", "An**swer**"],
-        "answer": "Per**mit** (verb)",
-        "explanation": "In the verb 'permit,' the stress falls on the second syllable: per-MIT."
-    },
-    {
-        "id": 12,
-        "question": "The new government promised to eliminate **_nepotism_** in the civil service.",
-        "answers": ["corruption", "favouritism", "bribery", "sectionalism"],
-        "answer": "favouritism",
-        "explanation": "Nepotism means giving jobs or favors to family members or friends, especially in politics or business, which is favouritism."
-    },
-    {
-        "id": 13,
-        "question": "Choose the correct phrase: He is capable ____ achieving his goals.",
-        "answers": ["to", "of", "in", "by"],
-        "answer": "of",
-        "explanation": "The correct preposition to follow the adjective 'capable' is 'of': capable of something."
-    },
-    {
-        "id": 14,
-        "question": "Which sentence is correctly punctuated?",
-        "answers": ["John, the doctor arrived late.", "John the doctor, arrived late.", "John, the doctor, arrived late.", "John the doctor arrived late."],
-        "answer": "John, the doctor, arrived late.",
-        "explanation": "Appositives (like 'the doctor' explaining 'John') must be set off by commas on both sides."
-    },
-    {
-        "id": 15,
-        "question": "What is the collective noun for a group of fish?",
-        "answers": ["Flock", "Herd", "School", "Swarm"],
-        "answer": "School",
-        "explanation": "A group of fish is commonly referred to as a school."
-    },
-    {
-        "id": 16,
-        "question": "Choose the option that has the same vowel sound as the one underlined in the word **_cut_**.",
-        "answers": ["put", "boot", "cup", "caught"],
-        "answer": "cup",
-        "explanation": "The word 'cut' and 'cup' share the short 'u' sound /ʌ/."
-    },
-    {
-        "id": 17,
-        "question": "If I were rich, I ____ travel the world.",
-        "answers": ["will", "would", "shall", "can"],
-        "answer": "would",
-        "explanation": "This is a hypothetical conditional sentence (Type 2). The structure is 'If + Simple Past, ... + would + base verb'."
-    },
-    {
-        "id": 18,
-        "question": "The underlined word is an example of an **_idiom_**: He **_smelled a rat_** during the negotiations.",
-        "answers": ["noticed a bad smell", "felt ill", "suspected foul play", "saw an animal"],
-        "answer": "suspected foul play",
-        "explanation": "To 'smell a rat' means to suspect that something is wrong or dishonest (foul play)."
-    },
-    {
-        "id": 19,
-        "question": "Choose the word with the primary stress on the **third syllable**.",
-        "answers": ["**Pho**tograph", "Pho**to**graphy", "Pho**to**graphic", "Tele**phone**"],
-        "answer": "Pho**to**graphic",
-        "explanation": "The stress falls on the third syllable: pho-to-GRAPH-ic."
-    },
-    {
-        "id": 20,
-        "question": "The underlined word is a **_simile_**: The soldier fought **_like a lion_**.",
-        "answers": ["metaphor", "oxymoron", "simile", "hyperbole"],
-        "answer": "simile",
-        "explanation": "A simile is a figure of speech involving the comparison of one thing with another thing of a different kind, used to make a description more vivid, typically using 'like' or 'as'."
-    },
-    {
-        "id": 21,
-        "question": "Choose the option that has the opposite meaning to the underlined word: The party was **_boisterous_**.",
-        "answers": ["lively", "noisy", "quiet", "crowded"],
-        "answer": "quiet",
-        "explanation": "Boisterous means noisy, energetic, and cheerful. The opposite is quiet."
-    },
-    {
-        "id": 22,
-        "question": "The news ____ disturbing to everyone.",
-        "answers": ["were", "are", "have been", "was"],
-        "answer": "was",
-        "explanation": "'News' is an uncountable noun and takes a singular verb."
-    },
-    {
-        "id": 23,
-        "question": "Which of these is a correct sentence structure?",
-        "answers": ["I enjoy read books.", "I enjoy reading books.", "I enjoy to read books.", "I am enjoying read books."],
-        "answer": "I enjoy reading books.",
-        "explanation": "The verb 'enjoy' is generally followed by a gerund (the -ing form of a verb)."
-    },
-    {
-        "id": 24,
-        "question": "The underlined word is an example of **_personification_**: The wind **_howled_** through the trees.",
-        "answers": ["metaphor", "personification", "alliteration", "euphemism"],
-        "answer": "personification",
-        "explanation": "Personification attributes human qualities (howling) to inanimate objects (the wind)."
-    },
-    {
-        "id": 25,
-        "question": "The doctor advised him to abstain ____ smoking.",
-        "answers": ["from", "on", "with", "at"],
-        "answer": "from",
-        "explanation": "The verb 'abstain' is always followed by the preposition 'from'."
-    },
-    {
-        "id": 26,
-        "question": "Choose the option that has the same vowel sound as the one underlined in the word **_hair_**.",
-        "answers": ["car", "hear", "fare", "here"],
-        "answer": "fare",
-        "explanation": "The sound in 'hair' is the diphthong /eə/ (like in 'fare' or 'pair')."
-    },
-    {
-        "id": 27,
-        "question": "The police are looking ____ the missing jewels.",
-        "answers": ["for", "up", "into", "at"],
-        "answer": "for",
-        "explanation": "'Look for' means to search for something."
-    },
-    {
-        "id": 28,
-        "question": "The underlined word is an example of **_alliteration_**: **_S**even **s**ilvery **s**nakes **s**lept **s**oundly.",
-        "answers": ["allusion", "alliteration", "assonance", "consonance"],
-        "answer": "alliteration",
-        "explanation": "Alliteration is the occurrence of the same letter or sound at the beginning of adjacent or closely connected words."
-    },
-    {
-        "id": 29,
-        "question": "She has been working here ____ 2010.",
-        "answers": ["for", "since", "ago", "during"],
-        "answer": "since",
-        "explanation": "'Since' is used to indicate a specific point in time when an action started."
-    },
-    {
-        "id": 30,
-        "question": "The word **_beautiful_** has its primary stress on the:",
-        "answers": ["first syllable", "second syllable", "third syllable", "fourth syllable"],
-        "answer": "first syllable",
-        "explanation": "The stress falls on the first syllable: **BEAU**-ti-ful."
-    },
-    {
-        "id": 31,
-        "question": "The underlined word is an example of a **_metaphor_**: The politician is a **_snake_**.",
-        "answers": ["simile", "metaphor", "personification", "hyperbole"],
-        "answer": "metaphor",
-        "explanation": "A metaphor is a figure of speech that directly compares two unlike things without using 'like' or 'as'."
-    },
-    {
-        "id": 32,
-        "question": "The man was accused ____ theft.",
-        "answers": ["for", "of", "with", "on"],
-        "answer": "of",
-        "explanation": "The correct idiom is 'accused of' something."
-    },
-    {
-        "id": 33,
-        "question": "Choose the option with the nearest meaning to the underlined word: The **_obvious_** solution was ignored.",
-        "answers": ["complex", "hidden", "apparent", "subtle"],
-        "answer": "apparent",
-        "explanation": "Obvious means easily perceived or understood; apparent."
-    },
-    {
-        "id": 34,
-        "question": "Which of these words starts with the /z/ sound?",
-        "answers": ["Think", "Though", "Zinc", "Ship"],
-        "answer": "Zinc",
-        "explanation": "'Zinc' starts with the /z/ sound. 'Think' starts with /θ/, and 'Though' starts with /ð/."
-    },
-    {
-        "id": 35,
-        "question": "The doctor performed a successful ____ on the patient.",
-        "answers": ["operate", "operation", "operating", "operator"],
-        "answer": "operation",
-        "explanation": "A noun is required to complete the sentence; 'operation' is the correct choice."
-    },
-    {
-        "id": 36,
-        "question": "If she had studied, she ____ passed the exam.",
-        "answers": ["will have", "would have", "can have", "might"],
-        "answer": "would have",
-        "explanation": "This is a hypothetical conditional sentence (Type 3). The structure is 'If + Past Perfect, ... + would have + past participle'."
-    },
-    {
-        "id": 37,
-        "question": "The police are ____ the crowd.",
-        "answers": ["dispersing", "disperse", "to disperse", "dispersed"],
-        "answer": "dispersing",
-        "explanation": "The present continuous tense ('are dispersing') fits the context of an ongoing action."
-    },
-    {
-        "id": 38,
-        "question": "Choose the word with the primary stress on the **last syllable**.",
-        "answers": ["**Com**fort", "De**vel**op", "Under**stand**", "De**mo**crat"],
-        "answer": "Under**stand**",
-        "explanation": "The stress falls on the last syllable: un-der-STAND."
-    },
-    {
-        "id": 39,
-        "question": "Choose the option that has the opposite meaning to the underlined word: The climate in the area is **_arid_**.",
-        "answers": ["wet", "dry", "hot", "sandy"],
-        "answer": "wet",
-        "explanation": "Arid means extremely dry or having very little rainfall. The opposite is wet."
-    },
-    {
-        "id": 40,
-        "question": "The underlined word is an example of an **_oxymoron_**: The comedian was **_seriously funny_**.",
-        "answers": ["pun", "irony", "paradox", "oxymoron"],
-        "answer": "oxymoron",
-        "explanation": "An oxymoron is a figure of speech in which contradictory terms appear in conjunction (e.g., 'seriously' and 'funny')."
-    }
+  {
+    "id": 1,
+    "question": "Choose the option that has the opposite meaning to the underlined word: The witness gave a rather vague account of the incident.",
+    "answers": ["truthful", "precise", "general", "complex"],
+    "answer": "precise",
+    "explanation": "Vague means unclear or indefinite. Its opposite is precise, meaning exact and accurate."
+  },
+  {
+    "id": 2,
+    "question": "Choose the option that best completes the sentence: Neither John nor his brothers ____ present at the meeting.",
+    "answers": ["was", "is", "has been", "were"],
+    "answer": "were",
+    "explanation": "With 'Neither... nor...', the verb agrees with the nearest subject ('brothers'), which is plural."
+  },
+  {
+    "id": 3,
+    "question": "Choose the option that has the same vowel sound as the one underlined in the word pool.",
+    "answers": ["foot", "put", "full", "food"],
+    "answer": "food",
+    "explanation": "The vowel sound in 'pool' is the long /u:/ sound, as in 'food'."
+  },
+  {
+    "id": 4,
+    "question": "Choose the option with the nearest meaning to the underlined word: The student was penitent and apologized profusely.",
+    "answers": ["defiant", "remorseful", "excited", "hesitant"],
+    "answer": "remorseful",
+    "explanation": "Penitent means feeling regret for wrongdoing. The synonym is remorseful."
+  },
+  {
+    "id": 5,
+    "question": "Identify the word where the primary stress is on the first syllable.",
+    "answers": ["refusal", "cultivate", "decision", "investigate"],
+    "answer": "cultivate",
+    "explanation": "The stress falls on the first syllable: CUL-ti-vate."
+  },
+  {
+    "id": 6,
+    "question": "Choose the option that best completes the sentence: She is averse ____ taking criticism from her junior colleagues.",
+    "answers": ["to", "at", "with", "about"],
+    "answer": "to",
+    "explanation": "'Averse' is always followed by 'to'."
+  },
+  {
+    "id": 7,
+    "question": "In the sentence 'She drives a yellow taxi,' the word 'yellow' functions as a(n):",
+    "answers": ["Noun", "Adverb", "Adjective", "Preposition"],
+    "answer": "Adjective",
+    "explanation": "An adjective modifies a noun. 'Yellow' describes 'taxi'."
+  },
+  {
+    "id": 8,
+    "question": "The plural form of the word sheep is:",
+    "answers": ["sheeps", "sheep", "sheepi", "sheepes"],
+    "answer": "sheep",
+    "explanation": "Sheep has the same form in singular and plural."
+  },
+  {
+    "id": 9,
+    "question": "Which word contains the consonant sound /ʃ/ (sh)?",
+    "answers": ["Measure", "Garage", "Chef", "Judge"],
+    "answer": "Chef",
+    "explanation": "'Chef' begins with the /ʃ/ sound."
+  },
+  {
+    "id": 10,
+    "question": "Choose the option with the opposite meaning to the underlined word: Her argument was quite flimsy.",
+    "answers": ["strong", "weak", "transparent", "false"],
+    "answer": "strong",
+    "explanation": "Flimsy means weak. The opposite is strong."
+  },
+  {
+    "id": 11,
+    "question": "Choose the word with the primary stress on the second syllable.",
+    "answers": ["Counsel", "Permit (verb)", "Table", "Answer"],
+    "answer": "Permit (verb)",
+    "explanation": "As a verb, 'permit' has stress on the second syllable: per-MIT."
+  },
+  {
+    "id": 12,
+    "question": "The new government promised to eliminate nepotism in the civil service.",
+    "answers": ["corruption", "favouritism", "bribery", "sectionalism"],
+    "answer": "favouritism",
+    "explanation": "Nepotism is a kind of favouritism shown to relatives or friends."
+  },
+  {
+    "id": 13,
+    "question": "Choose the correct phrase: He is capable ____ achieving his goals.",
+    "answers": ["to", "of", "in", "by"],
+    "answer": "of",
+    "explanation": "'Capable' is followed by 'of'."
+  },
+  {
+    "id": 14,
+    "question": "Which sentence is correctly punctuated?",
+    "answers": ["John, the doctor arrived late.", "John the doctor, arrived late.", "John, the doctor, arrived late.", "John the doctor arrived late."],
+    "answer": "John, the doctor, arrived late.",
+    "explanation": "An appositive must be set off by commas on both sides."
+  },
+  {
+    "id": 15,
+    "question": "What is the collective noun for a group of fish?",
+    "answers": ["Flock", "Herd", "School", "Swarm"],
+    "answer": "School",
+    "explanation": "A group of fish is called a school."
+  },
+  {
+    "id": 16,
+    "question": "Choose the option that has the same vowel sound as the one underlined in the word cut.",
+    "answers": ["put", "boot", "cup", "caught"],
+    "answer": "cup",
+    "explanation": "'Cut' and 'cup' share the /ʌ/ vowel sound."
+  },
+  {
+    "id": 17,
+    "question": "If I were rich, I ____ travel the world.",
+    "answers": ["will", "would", "shall", "can"],
+    "answer": "would",
+    "explanation": "This is a Type 2 conditional: If + past tense → would + verb."
+  },
+  {
+    "id": 18,
+    "question": "The underlined word is an example of an idiom: He smelled a rat during the negotiations.",
+    "answers": ["noticed a bad smell", "felt ill", "suspected foul play", "saw an animal"],
+    "answer": "suspected foul play",
+    "explanation": "'Smell a rat' means suspect something dishonest."
+  },
+  {
+    "id": 19,
+    "question": "Choose the word with the primary stress on the third syllable.",
+    "answers": ["Photograph", "Photography", "Photographic", "Telephone"],
+    "answer": "Photographic",
+    "explanation": "Photographic has stress on the third syllable: pho-to-GRAPH-ic."
+  },
+  {
+    "id": 20,
+    "question": "The underlined word is a simile: The soldier fought like a lion.",
+    "answers": ["metaphor", "oxymoron", "simile", "hyperbole"],
+    "answer": "simile",
+    "explanation": "A simile compares using 'like' or 'as'."
+  },
+  {
+    "id": 21,
+    "question": "Choose the option that has the opposite meaning to the underlined word: The party was boisterous.",
+    "answers": ["lively", "noisy", "quiet", "crowded"],
+    "answer": "quiet",
+    "explanation": "Boisterous means noisy. Its opposite is quiet."
+  },
+  {
+    "id": 22,
+    "question": "The news ____ disturbing to everyone.",
+    "answers": ["were", "are", "have been", "was"],
+    "answer": "was",
+    "explanation": "'News' is an uncountable noun and takes a singular verb."
+  },
+  {
+    "id": 23,
+    "question": "Which of these is a correct sentence structure?",
+    "answers": ["I enjoy read books.", "I enjoy reading books.", "I enjoy to read books.", "I am enjoying read books."],
+    "answer": "I enjoy reading books.",
+    "explanation": "'Enjoy' is followed by a gerund (verb + ing)."
+  },
+  {
+    "id": 24,
+    "question": "The underlined word is an example of personification: The wind howled through the trees.",
+    "answers": ["metaphor", "personification", "alliteration", "euphemism"],
+    "answer": "personification",
+    "explanation": "Personification gives human qualities to non-living things."
+  },
+  {
+    "id": 25,
+    "question": "The doctor advised him to abstain ____ smoking.",
+    "answers": ["from", "on", "with", "at"],
+    "answer": "from",
+    "explanation": "'Abstain' is always followed by 'from'."
+  },
+  {
+    "id": 26,
+    "question": "Choose the option that has the same vowel sound as the one underlined in the word hair.",
+    "answers": ["car", "hear", "fare", "here"],
+    "answer": "fare",
+    "explanation": "'Hair' and 'fare' share the vowel sound /eə/."
+  },
+  {
+    "id": 27,
+    "question": "The police are looking ____ the missing jewels.",
+    "answers": ["for", "up", "into", "at"],
+    "answer": "for",
+    "explanation": "'Look for' means to search for."
+  },
+  {
+    "id": 28,
+    "question": "The underlined word is an example of alliteration: Seven silvery snakes slept soundly.",
+    "answers": ["allusion", "alliteration", "assonance", "consonance"],
+    "answer": "alliteration",
+    "explanation": "Alliteration is repetition of initial consonant sounds."
+  },
+  {
+    "id": 29,
+    "question": "She has been working here ____ 2010.",
+    "answers": ["for", "since", "ago", "during"],
+    "answer": "since",
+    "explanation": "'Since' indicates the starting point of an action."
+  },
+  {
+    "id": 30,
+    "question": "The word beautiful has its primary stress on the:",
+    "answers": ["first syllable", "second syllable", "third syllable", "fourth syllable"],
+    "answer": "first syllable",
+    "explanation": "Stress is on the first syllable: BEAU-ti-ful."
+  },
+  {
+    "id": 31,
+    "question": "The underlined word is a metaphor: The politician is a snake.",
+    "answers": ["simile", "metaphor", "personification", "hyperbole"],
+    "answer": "metaphor",
+    "explanation": "A metaphor compares directly without 'like' or 'as'."
+  },
+  {
+    "id": 32,
+    "question": "The man was accused ____ theft.",
+    "answers": ["for", "of", "with", "on"],
+    "answer": "of",
+    "explanation": "The correct expression is 'accused of'."
+  },
+  {
+    "id": 33,
+    "question": "Choose the option with the nearest meaning to the underlined word: The obvious solution was ignored.",
+    "answers": ["complex", "hidden", "apparent", "subtle"],
+    "answer": "apparent",
+    "explanation": "'Obvious' means clear or apparent."
+  },
+  {
+    "id": 34,
+    "question": "Which of these words starts with the /z/ sound?",
+    "answers": ["Think", "Though", "Zinc", "Ship"],
+    "answer": "Zinc",
+    "explanation": "Zinc begins with the /z/ sound."
+  },
+  {
+    "id": 35,
+    "question": "The doctor performed a successful ____ on the patient.",
+    "answers": ["operate", "operation", "operating", "operator"],
+    "answer": "operation",
+    "explanation": "A noun is required; 'operation' is correct."
+  },
+  {
+    "id": 36,
+    "question": "If she had studied, she ____ passed the exam.",
+    "answers": ["will have", "would have", "can have", "might"],
+    "answer": "would have",
+    "explanation": "This is a Type 3 conditional: If + past perfect → would have + past participle."
+  },
+  {
+    "id": 37,
+    "question": "The police are ____ the crowd.",
+    "answers": ["dispersing", "disperse", "to disperse", "dispersed"],
+    "answer": "dispersing",
+    "explanation": "Present continuous is correct for an ongoing action."
+  },
+  {
+    "id": 38,
+    "question": "Choose the word with the primary stress on the last syllable.",
+    "answers": ["Comfort", "Develop", "Understand", "Democrat"],
+    "answer": "Understand",
+    "explanation": "Understand is stressed on the last syllable: un-der-STAND."
+  },
+  {
+    "id": 39,
+    "question": "Choose the option that has the opposite meaning to the underlined word: The climate in the area is arid.",
+    "answers": ["wet", "dry", "hot", "sandy"],
+    "answer": "wet",
+    "explanation": "Arid means extremely dry. The opposite is wet."
+  },
+  {
+    "id": 40,
+    "question": "The underlined word is an oxymoron: The comedian was seriously funny.",
+    "answers": ["pun", "irony", "paradox", "oxymoron"],
+    "answer": "oxymoron",
+    "explanation": "An oxymoron combines contradictory terms."
+  }
 ]
