@@ -2,9 +2,9 @@ import { ID } from 'appwrite';
 import { account } from './appwrite';
 
 
-export async function signUp(email: string, password: string, firstName: string){
+export async function signUp(email: string, password: string, name: string){
        try {
-           return await account.create(ID.unique(), email, password, firstName);
+           return await account.create(ID.unique(), email, password, name);
        } catch (error) {
            console.log('sign up error: ',  error);
            throw error;

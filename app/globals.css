@@ -30,3 +30,19 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
+
+
+@keyframes bounce-smooth {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+
+.dot {
+  animation: bounce-smooth 0.9s infinite;
+}
+.dot.delay-150 {
+  animation-delay: 0.15s;
+}
+.dot.delay-300 {
+  animation-delay: 0.3s;
+}

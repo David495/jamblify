@@ -1,53 +1,21 @@
-"use client";
-import React, { useState, useRef, useEffect } from "react";
-import DashHeader from "../components/DashboardHeader";
-import BackButton from "../components/BackButton";
-import { ArrowUp, Volume2, Clipboard, Check } from "lucide-react";
+"use client"
+import React, { useState, useEffect, useRef } from "react";
+import SideBar from "../../../components/SideBar";
+import DashHeader from "../../../components/DashboardHeader";
+import BackButton from "../../../components/BackButton";
+import { ArrowUp, Clipboard, Check } from "lucide-react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 
-const DashHome = () => {
+const Essay = () => {
   const [input, setInput] = useState("");
   const [messages, setMessages] = useState<{ role: string; text: string }[]>([]);
   const [loading, setLoading] = useState(false);
   const [isTyping, setIsTyping] = useState(false);
-  const [isSpeaking, setIsSpeaking] = useState(false);
   const [isCopied, setIsCopied] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
-  const [text, setText] = useState("Welcome to Jamblify ai 🛩️");
-
-
-  const stripMarkdown = (text: string) => {
-    return text
-      .replace(/(\*\*|__)(.*?)\1/g, "$2")
-      .replace(/(\*|_)(.*?)\1/g, "$2")
-      .replace(/(```[\s\S]*?```|`.*?`)/g, "$2")
-      .replace(/!\[.*?\]\(.*?\)/g, "")
-      .replace(/\[([^\]]+)\]\([^\)]+\)/g, "$1")
-      .replace(/[#>~*-]/g, "")
-      .trim();
-  };
-
-  const speak = () => {
-    const lastBotMessage = [...messages].reverse().find(m => m.role === "assistant");
-    if (!lastBotMessage) return;
-
-    speechSynthesis.cancel();
-    const cleanText = stripMarkdown(lastBotMessage.text);
-    const utter = new SpeechSynthesisUtterance(cleanText);
-
-    utter.onend = () => setIsSpeaking(false);
-    setIsSpeaking(true);
-    speechSynthesis.speak(utter);
-  };
-
-  const stopSpeak = () => {
-    speechSynthesis.cancel();
-    setIsSpeaking(false);
-  };
 
   const handleInput = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
-    setText("");
     if (loading) return;
     const el = e.target;
     el.style.height = "auto";
@@ -98,10 +66,7 @@ const DashHome = () => {
 
       setMessages(prev => [...prev, { role: "assistant", text: botReply }]);
     } catch {
-      setMessages(prev => [
-        ...prev,
-        { role: "assistant", text: "Something went wrong." },
-      ]);
+      setMessages(prev => [...prev, { role: "assistant", text: "Something went wrong." }]);
     }
 
     setLoading(false);
@@ -111,68 +76,52 @@ const DashHome = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages]);
 
-  const hasBotReply = messages.some(m => m.role === "assistant");
-
   return (
     <div className="flex w-full h-screen">
-
+      <SideBar />
       <div className="flex flex-col flex-1 h-full">
         <DashHeader />
         <BackButton />
+
         <div className="flex flex-col flex-1 p-4 overflow-y-auto">
           <div className="max-w-2xl w-full mx-auto flex flex-col gap-6">
-                <h1 className="mt-10 text-center text-2xl">{text}</h1>
             {messages.map((msg, index) => (
-              <div
-                key={index}
-                className={`p-4 rounded-2xl shadow max-w-[90%] whitespace-pre-wrap ${
-                  msg.role === "user"
-                    ? "bg-blue-600 text-white self-end"
-                    : "bg-white text-black self-start"
-                }`}
-              >
-                <ReactMarkdown remarkPlugins={[remarkGfm]}>
-                  {msg.text}
-                </ReactMarkdown>
-              </div>
-            ))}
+  <div
+    key={index}
+    className={`p-4 rounded-2xl shadow ${
+      msg.role === "user"
+        ? "bg-blue-600 text-white self-end"
+        : "bg-white text-black self-start"
+    } max-w-[90%] whitespace-pre-wrap`}
+  >
+    <div className="prose prose-sm max-w-none">
+      <ReactMarkdown remarkPlugins={[remarkGfm]}>
+        {msg.text}
+      </ReactMarkdown>
+    </div>
+  </div>
+))}
 
-            {loading && (
-              <div className="p-4 rounded-2xl shadow bg-gray-200 text-black self-start max-w-[90%]">
-                <div className="flex gap-1">
-                  <span className="dot w-2 h-2 bg-gray-500 rounded-full animate-bounce"></span>
-                  <span className="dot w-2 h-2 bg-gray-500 rounded-full animate-bounce delay-150"></span>
-                  <span className="dot w-2 h-2 bg-gray-500 rounded-full animate-bounce delay-300"></span>
-                </div>
-              </div>
-            )}
-
+{loading && (
+  <div className="p-4 rounded-2xl shadow bg-gray-200 text-black self-start max-w-[90%]">
+    <div className="flex gap-1">
+      <span className="dot w-2 h-2 bg-gray-500 rounded-full animate-bounce"></span>
+      <span className="dot w-2 h-2 bg-gray-500 rounded-full animate-bounce delay-150"></span>
+      <span className="dot w-2 h-2 bg-gray-500 rounded-full animate-bounce delay-300"></span>
+    </div>
+  </div>
+)}
             <div ref={messagesEndRef}></div>
-
-            {hasBotReply && !loading && (
-              <div className="flex items-center gap-4 text-gray-700">
-                <Volume2
-                  className="cursor-pointer"
-                  onClick={() => (isSpeaking ? stopSpeak() : speak())}
-                />
-                {isCopied ? (
-                  <Check className="text-green-500" />
-                ) : (
-                  <Clipboard className="cursor-pointer" onClick={copyToClipboard} />
-                )}
-              </div>
-            )}
-
           </div>
         </div>
+
         <div className="w-full border-t p-4 bg-white">
           <div className="max-w-2xl mx-auto flex items-end gap-3">
-
             <textarea
               value={input}
               onChange={handleInput}
               onKeyDown={handleKeyDown}
-              placeholder="Ask me anything..."
+              placeholder="Enter your essay topic"
               className="flex-1 resize-none p-3 border rounded-xl outline-none max-h-60 overflow-y-auto"
               rows={1}
             />
@@ -181,9 +130,7 @@ const DashHome = () => {
               onClick={generateText}
               disabled={!isTyping || loading}
               className={`p-3 rounded-xl transition ${
-                isTyping
-                  ? "bg-blue-600 text-white"
-                  : "bg-gray-300 text-gray-500"
+                isTyping ? "bg-blue-600 text-white" : "bg-gray-300 text-gray-500"
               }`}
             >
               <ArrowUp />
@@ -195,13 +142,11 @@ const DashHome = () => {
             >
               {isCopied ? <Check /> : <Clipboard />}
             </button>
-
           </div>
         </div>
-
       </div>
     </div>
   );
 };
 
-export default DashHome;
+export default Essay;

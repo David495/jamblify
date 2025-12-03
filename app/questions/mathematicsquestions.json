@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "question": "If log₂(x) = 3, what is the value of x?",
+    "answers": ["4", "6", "8", "9"],
+    "answer": "8",
+    "explanation": "log₂(x) = 3 means 2³ = x, so x = 8."
+  },
+  {
+    "id": 2,
+    "question": "Find the sum of the first 10 terms of the arithmetic progression: 3, 7, 11, 15, ...",
+    "answers": ["210", "220", "230", "240"],
+    "answer": "210",
+    "explanation": "a = 3, d = 4. S₁₀ = 10/2 × [2(3) + 9 × 4] = 210."
+  },
+  {
+    "id": 3,
+    "question": "Factorize the expression 4x² − 9y².",
+    "answers": ["(2x−3y)²", "(4x−9y)(x+y)", "(2x−3y)(2x+3y)", "(4x−y)(x+9y)"],
+    "answer": "(2x−3y)(2x+3y)",
+    "explanation": "Difference of squares: (2x)² − (3y)² = (2x−3y)(2x+3y)."
+  },
+  {
+    "id": 4,
+    "question": "If sinθ = 3/5 and θ is acute, find cosθ.",
+    "answers": ["4/5", "5/3", "3/4", "1/5"],
+    "answer": "4/5",
+    "explanation": "sin²θ + cos²θ = 1, so cosθ = 4/5."
+  },
+  {
+    "id": 5,
+    "question": "Solve the inequality: 5x − 2 < 3x + 6.",
+    "answers": ["x < 4", "x > 4", "x < 8", "x > 8"],
+    "answer": "x < 4",
+    "explanation": "5x − 2 < 3x + 6 → 2x < 8 → x < 4."
+  },
+  {
+    "id": 6,
+    "question": "If the mean of 2, 4, 6, x, 10 is 6, find the value of x.",
+    "answers": ["4", "6", "8", "10"],
+    "answer": "8",
+    "explanation": "(2 + 4 + 6 + x + 10)/5 = 6 → x = 8."
+  },
+  {
+    "id": 7,
+    "question": "The gradient of the line passing through points (1, 5) and (3, 9) is:",
+    "answers": ["2", "4", "1/2", "-2"],
+    "answer": "2",
+    "explanation": "Slope = (9 − 5)/(3 − 1) = 4/2 = 2."
+  },
+  {
+    "id": 8,
+    "question": "Simplify 1 / (√3 − √2).",
+    "answers": ["√3 + √2", "1/√3 − 1/√2", "√3 − √2", "1"],
+    "answer": "√3 + √2",
+    "explanation": "Rationalizing gives √3 + √2."
+  },
+  {
+    "id": 9,
+    "question": "The area of a circle is 154 cm². Find its radius (π = 22/7).",
+    "answers": ["7 cm", "14 cm", "21 cm", "49 cm"],
+    "answer": "7 cm",
+    "explanation": "A = πr² → r² = 49 → r = 7 cm."
+  },
+  {
+    "id": 10,
+    "question": "What is the probability of obtaining an odd number when a fair die is rolled?",
+    "answers": ["1/6", "1/3", "1/2", "2/3"],
+    "answer": "1/2",
+    "explanation": "Odd numbers = 3 out of 6 outcomes → 3/6 = 1/2."
+  },
+  {
+    "id": 11,
+    "question": "If 2ˣ = 32, find the value of x.",
+    "answers": ["4", "5", "6", "16"],
+    "answer": "5",
+    "explanation": "32 = 2⁵, so x = 5."
+  },
+  {
+    "id": 12,
+    "question": "Find the hypotenuse of a right-angled triangle with sides 5 cm and 12 cm.",
+    "answers": ["13 cm", "15 cm", "17 cm", "19 cm"],
+    "answer": "13 cm",
+    "explanation": "c² = 5² + 12² = 169 → c = 13."
+  },
+  {
+    "id": 13,
+    "question": "Solve for y: (y + 1)/2 = (y − 2)/3.",
+    "answers": ["-7", "7", "5", "-5"],
+    "answer": "-7",
+    "explanation": "Cross-multiply and solve: y = -7."
+  },
+  {
+    "id": 14,
+    "question": "Find x if det([[2, 1], [4, x]]) = 6.",
+    "answers": ["5", "2", "3", "1"],
+    "answer": "5",
+    "explanation": "2x − 4 = 6 → x = 5."
+  },
+  {
+    "id": 15,
+    "question": "The volume of a cube is 27 cm³. Find the side length.",
+    "answers": ["9 cm", "3 cm", "5 cm", "6 cm"],
+    "answer": "3 cm",
+    "explanation": "Side = ³√27 = 3."
+  },
+  {
+    "id": 16,
+    "question": "Convert 5/8 to a percentage.",
+    "answers": ["50%", "62.5%", "65%", "58%"],
+    "answer": "62.5%",
+    "explanation": "(5/8) × 100 = 62.5%."
+  },
+  {
+    "id": 17,
+    "question": "Differentiate y = 3x² + 2x − 1.",
+    "answers": ["3x + 2", "6x + 2", "3x² + 2", "6x"],
+    "answer": "6x + 2",
+    "explanation": "dy/dx = 6x + 2."
+  },
+  {
+    "id": 18,
+    "question": "Integrate ∫(4x³ − 1) dx.",
+    "answers": ["12x² + C", "x⁴ − x + C", "x⁴ − 1 + C", "4x⁴ − x + C"],
+    "answer": "x⁴ − x + C",
+    "explanation": "∫4x³ dx = x⁴; ∫−1 dx = −x."
+  },
+  {
+    "id": 19,
+    "question": "Find the median of the numbers: 5, 2, 8, 1, 9, 4, 7.",
+    "answers": ["4", "5", "6", "7"],
+    "answer": "5",
+    "explanation": "Sorted list: 1,2,4,5,7,8,9 → middle = 5."
+  },
+  {
+    "id": 20,
+    "question": "A tower is viewed from 10 m away at an angle of elevation of 45°. What is its height?",
+    "answers": ["10 m", "10√3 m", "20 m", "5√2 m"],
+    "answer": "10 m",
+    "explanation": "tan 45° = h/10 → h = 10 m."
+  }
+]
