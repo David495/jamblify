@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "question": "Which of the following is a noble gas?",
+    "answers": ["Nitrogen", "Oxygen", "Argon", "Chlorine"],
+    "answer": "Argon",
+    "explanation": "Argon is an inert gas in Group 18 of the periodic table."
+  },
+  {
+    "id": 2,
+    "question": "The atomic number of an element represents the number of:",
+    "answers": ["Protons", "Neutrons", "Electrons", "Nucleons"],
+    "answer": "Protons",
+    "explanation": "Atomic number = number of protons in the nucleus."
+  },
+  {
+    "id": 3,
+    "question": "Which of the following is a chemical change?",
+    "answers": ["Melting of ice", "Dissolving sugar in water", "Rusting of iron", "Breaking glass"],
+    "answer": "Rusting of iron",
+    "explanation": "Rusting produces a new substance—iron oxide."
+  },
+  {
+    "id": 4,
+    "question": "The bond formed between two non-metals is called:",
+    "answers": ["Ionic bond", "Metallic bond", "Covalent bond", "Hydrogen bond"],
+    "answer": "Covalent bond",
+    "explanation": "Covalent bonds involve sharing of electrons between non-metals."
+  },
+  {
+    "id": 5,
+    "question": "Which gas is responsible for the green coloration of plants?",
+    "answers": ["Oxygen", "Carbon dioxide", "Chlorine", "Nitrogen"],
+    "answer": "Carbon dioxide",
+    "explanation": "Plants use CO₂ in photosynthesis to produce chlorophyll."
+  },
+  {
+    "id": 6,
+    "question": "Which separation technique is used to separate a mixture of two miscible liquids?",
+    "answers": ["Filtration", "Chromatography", "Distillation", "Evaporation"],
+    "answer": "Distillation",
+    "explanation": "Distillation separates liquids with different boiling points."
+  },
+  {
+    "id": 7,
+    "question": "Which of the following is a base?",
+    "answers": ["HCl", "NaOH", "CO₂", "H₂SO₄"],
+    "answer": "NaOH",
+    "explanation": "Sodium hydroxide is a strong base."
+  },
+  {
+    "id": 8,
+    "question": "What is the pH of a neutral solution at 25°C?",
+    "answers": ["0", "3", "7", "14"],
+    "answer": "7",
+    "explanation": "Pure water has a neutral pH of 7."
+  },
+  {
+    "id": 9,
+    "question": "The process by which a solid changes directly to gas is:",
+    "answers": ["Melting", "Sublimation", "Condensation", "Evaporation"],
+    "answer": "Sublimation",
+    "explanation": "Sublimation occurs in substances like iodine and dry ice."
+  },
+  {
+    "id": 10,
+    "question": "The chemical formula of sodium trioxocarbonate(IV) is:",
+    "answers": ["Na₂CO₃", "NaHCO₃", "NaCl", "NaOH"],
+    "answer": "Na₂CO₃",
+    "explanation": "Sodium trioxocarbonate(IV) is sodium carbonate."
+  },
+  {
+    "id": 11,
+    "question": "An acid turns blue litmus paper:",
+    "answers": ["Red", "Blue", "Green", "Colourless"],
+    "answer": "Red",
+    "explanation": "Acids turn blue litmus paper red."
+  },
+  {
+    "id": 12,
+    "question": "Which of the following is an example of a mixture?",
+    "answers": ["Water", "Salt", "Air", "Carbon dioxide"],
+    "answer": "Air",
+    "explanation": "Air contains nitrogen, oxygen, CO₂, and others."
+  },
+  {
+    "id": 13,
+    "question": "The oxidation number of oxygen in most compounds is:",
+    "answers": ["+2", "-2", "0", "+1"],
+    "answer": "-2",
+    "explanation": "Oxygen usually has an oxidation state of –2."
+  },
+  {
+    "id": 14,
+    "question": "Which of the following is an exothermic process?",
+    "answers": ["Melting", "Evaporation", "Condensation", "Sublimation"],
+    "answer": "Condensation",
+    "explanation": "Condensation releases heat to the surroundings."
+  },
+  {
+    "id": 15,
+    "question": "The number of atoms in 1 mole of a substance is called:",
+    "answers": ["Molarity", "Avogadro's constant", "Atomic number", "Mass number"],
+    "answer": "Avogadro's constant",
+    "explanation": "Avogadro's constant is 6.02 × 10²³."
+  },
+  {
+    "id": 16,
+    "question": "Which gas is used in the Haber process?",
+    "answers": ["Hydrogen", "Chlorine", "Oxygen", "Carbon monoxide"],
+    "answer": "Hydrogen",
+    "explanation": "Haber process: N₂ + 3H₂ → 2NH₃."
+  },
+  {
+    "id": 17,
+    "question": "The periodic table is arranged in order of increasing:",
+    "answers": ["Atomic mass", "Density", "Atomic number", "Melting point"],
+    "answer": "Atomic number",
+    "explanation": "Modern periodic law: properties depend on atomic number."
+  },
+  {
+    "id": 18,
+    "question": "Which of the following is NOT an alkali metal?",
+    "answers": ["Sodium", "Potassium", "Calcium", "Lithium"],
+    "answer": "Calcium",
+    "explanation": "Calcium is an alkaline earth metal."
+  },
+  {
+    "id": 19,
+    "question": "Hard water is caused by the presence of:",
+    "answers": ["Na⁺", "Ca²⁺", "H⁺", "Cl⁻"],
+    "answer": "Ca²⁺",
+    "explanation": "Calcium ions cause hardness in water."
+  },
+  {
+    "id": 20,
+    "question": "The type of reaction in which heat is absorbed is:",
+    "answers": ["Exothermic", "Neutralization", "Endothermic", "Precipitation"],
+    "answer": "Endothermic",
+    "explanation": "Endothermic reactions absorb heat from surroundings."
+  },
+  {
+    "id": 21,
+    "question": "The gas that turns limewater milky is:",
+    "answers": ["O₂", "CO₂", "N₂", "H₂"],
+    "answer": "CO₂",
+    "explanation": "CO₂ forms CaCO₃ with limewater."
+  },
+  {
+    "id": 22,
+    "question": "Which substance can neutralize an acid?",
+    "answers": ["Salt", "Sugar", "Base", "Water"],
+    "answer": "Base",
+    "explanation": "Acids react with bases to form salt and water."
+  },
+  {
+    "id": 23,
+    "question": "Which of the following is an allotrope of carbon?",
+    "answers": ["Diamond", "CO₂", "CH₄", "CCl₄"],
+    "answer": "Diamond",
+    "explanation": "Carbon has allotropes like diamond, graphite, and fullerene."
+  },
+  {
+    "id": 24,
+    "question": "The process of adding oxygen to a substance is:",
+    "answers": ["Reduction", "Oxidation", "Neutralization", "Condensation"],
+    "answer": "Oxidation",
+    "explanation": "Oxidation involves gain of oxygen or loss of electrons."
+  },
+  {
+    "id": 25,
+    "question": "The reaction between an acid and a base produces:",
+    "answers": ["Salt and water", "Gas only", "Oxide", "Metal only"],
+    "answer": "Salt and water",
+    "explanation": "Neutralization produces salt and water."
+  },
+  {
+    "id": 26,
+    "question": "Which of the following gases is collected over water?",
+    "answers": ["Hydrogen", "Hydrogen chloride", "Ammonia", "SO₂"],
+    "answer": "Hydrogen",
+    "explanation": "Hydrogen is insoluble in water and can be collected over water."
+  },
+  {
+    "id": 27,
+    "question": "A substance that speeds up a reaction without being used up is called:",
+    "answers": ["Reactant", "Catalyst", "Enzyme", "Inhibitor"],
+    "answer": "Catalyst",
+    "explanation": "Catalysts increase reaction rates without undergoing permanent change."
+  },
+  {
+    "id": 28,
+    "question": "The colour of litmus in alkaline solution is:",
+    "answers": ["Red", "Blue", "Green", "White"],
+    "answer": "Blue",
+    "explanation": "Bases turn red litmus paper blue."
+  },
+  {
+    "id": 29,
+    "question": "Which of these is NOT an acid?",
+    "answers": ["H₂SO₄", "HCl", "HNO₃", "NaOH"],
+    "answer": "NaOH",
+    "explanation": "NaOH is a strong base."
+  },
+  {
+    "id": 30,
+    "question": "The ability of an atom to attract electrons is called:",
+    "answers": ["Ionization energy", "Electronegativity", "Electron affinity", "Nuclear charge"],
+    "answer": "Electronegativity",
+    "explanation": "Electronegativity measures attraction for electrons in bonds."
+  },
+  {
+    "id": 31,
+    "question": "Crude oil is separated by:",
+    "answers": ["Filtration", "Fractional distillation", "Decantation", "Sublimation"],
+    "answer": "Fractional distillation",
+    "explanation": "It separates crude oil based on boiling points."
+  },
+  {
+    "id": 32,
+    "question": "Which ion gives a brick-red flame test?",
+    "answers": ["Na⁺", "K⁺", "Ca²⁺", "Ba²⁺"],
+    "answer": "Ca²⁺",
+    "explanation": "Calcium ions produce a brick-red flame."
+  },
+  {
+    "id": 33,
+    "question": "The gas evolved when magnesium reacts with dilute acid is:",
+    "answers": ["Oxygen", "Hydrogen", "Chlorine", "CO₂"],
+    "answer": "Hydrogen",
+    "explanation": "Metals above hydrogen in the reactivity series displace H₂ gas."
+  },
+  {
+    "id": 34,
+    "question": "Which of the following is used to preserve food?",
+    "answers": ["CO₂", "H₂S", "NaCl", "O₂"],
+    "answer": "NaCl",
+    "explanation": "Salt inhibits bacterial growth."
+  },
+  {
+    "id": 35,
+    "question": "The major component of natural gas is:",
+    "answers": ["Methane", "Ethane", "Propane", "Butane"],
+    "answer": "Methane",
+    "explanation": "Methane accounts for over 70% of natural gas."
+  },
+  {
+    "id": 36,
+    "question": "Which process removes temporary hardness of water?",
+    "answers": ["Boiling", "Filtration", "Chlorination", "Sedimentation"],
+    "answer": "Boiling",
+    "explanation": "Boiling removes bicarbonate hardness."
+  },
+  {
+    "id": 37,
+    "question": "A solution that resists change in pH is called:",
+    "answers": ["Salt", "Acid", "Base", "Buffer"],
+    "answer": "Buffer",
+    "explanation": "Buffers resist changes in pH."
+  },
+  {
+    "id": 38,
+    "question": "The functional group of alcohols is:",
+    "answers": ["–COOH", "–OH", "–NH₂", "–CHO"],
+    "answer": "–OH",
+    "explanation": "Alcohols contain the hydroxyl (–OH) group."
+  },
+  {
+    "id": 39,
+    "question": "A homologous series is a group of compounds with:",
+    "answers": ["Same colour", "Same solubility", "Similar chemical properties", "Same melting point"],
+    "answer": "Similar chemical properties",
+    "explanation": "Members have the same functional group and show similar chemistry."
+  },
+  {
+    "id": 40,
+    "question": "The organic compound represented by CH₄ is:",
+    "answers": ["Methane", "Ethane", "Propane", "Butane"],
+    "answer": "Methane",
+    "explanation": "CH₄ is methane, the simplest alkane."
+  }
+]

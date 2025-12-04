@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "question": "The brain of the computer is the:",
+    "answers": ["Monitor", "Keyboard", "CPU", "Mouse"],
+    "answer": "CPU",
+    "explanation": "The CPU (Central Processing Unit) controls all computer operations."
+  },
+  {
+    "id": 2,
+    "question": "Which of the following is an output device?",
+    "answers": ["Keyboard", "Scanner", "Monitor", "Mouse"],
+    "answer": "Monitor",
+    "explanation": "Monitors display information processed by the computer."
+  },
+  {
+    "id": 3,
+    "question": "Which of the following is an example of software?",
+    "answers": ["Keyboard", "Printer", "Microsoft Word", "Mouse"],
+    "answer": "Microsoft Word",
+    "explanation": "Software refers to programs used by the computer."
+  },
+  {
+    "id": 4,
+    "question": "The full meaning of ICT is:",
+    "answers": ["International Communication Technology", "Information and Computer Technology", "Information and Communication Technology", "Internet Communication Transmission"],
+    "answer": "Information and Communication Technology",
+    "explanation": "ICT involves technologies used for information processing and communication."
+  },
+  {
+    "id": 5,
+    "question": "Which key is used to delete characters to the left of the cursor?",
+    "answers": ["Delete", "Backspace", "Shift", "Tab"],
+    "answer": "Backspace",
+    "explanation": "Backspace removes characters to the left."
+  },
+  {
+    "id": 6,
+    "question": "A computer network that covers a small geographical area like a school is called:",
+    "answers": ["WAN", "MAN", "LAN", "VPN"],
+    "answer": "LAN",
+    "explanation": "LAN (Local Area Network) covers small areas such as offices or schools."
+  },
+  {
+    "id": 7,
+    "question": "The physical parts of the computer are called:",
+    "answers": ["Software", "Hardware", "Data", "Programs"],
+    "answer": "Hardware",
+    "explanation": "Hardware refers to tangible computer components."
+  },
+  {
+    "id": 8,
+    "question": "Which device is used to store large amounts of data permanently?",
+    "answers": ["RAM", "Hard disk", "Cache", "Registers"],
+    "answer": "Hard disk",
+    "explanation": "Hard disks store data permanently."
+  },
+  {
+    "id": 9,
+    "question": "An email is an example of:",
+    "answers": ["Social media", "E-commerce", "Electronic communication", "Data mining"],
+    "answer": "Electronic communication",
+    "explanation": "Email is a digital method of sending messages."
+  },
+  {
+    "id": 10,
+    "question": "Which of the following is NOT an operating system?",
+    "answers": ["Windows", "Linux", "Android", "Microsoft Word"],
+    "answer": "Microsoft Word",
+    "explanation": "Microsoft Word is application software, not an OS."
+  },
+  {
+    "id": 11,
+    "question": "The temporary memory of a computer is called:",
+    "answers": ["ROM", "RAM", "SSD", "Cache"],
+    "answer": "RAM",
+    "explanation": "RAM loses data when power goes off."
+  },
+  {
+    "id": 12,
+    "question": "What does URL stand for?",
+    "answers": ["Universal Resource Link", "Uniform Resource Locator", "United Routing Link", "Universal Retrieval Locator"],
+    "answer": "Uniform Resource Locator",
+    "explanation": "A URL is the address used to access websites."
+  },
+  {
+    "id": 13,
+    "question": "Which of the following is used to scan printed documents?",
+    "answers": ["Monitor", "Scanner", "Mouse", "Printer"],
+    "answer": "Scanner",
+    "explanation": "Scanners convert paper documents into digital format."
+  },
+  {
+    "id": 14,
+    "question": "Which of these is a programming language?",
+    "answers": ["HTML", "Python", "WiFi", "USB"],
+    "answer": "Python",
+    "explanation": "Python is a high-level programming language."
+  },
+  {
+    "id": 15,
+    "question": "A computer virus is:",
+    "answers": ["A hardware device", "A storage unit", "A malicious program", "A programming language"],
+    "answer": "A malicious program",
+    "explanation": "Viruses are harmful software that can damage files."
+  },
+  {
+    "id": 16,
+    "question": "A collection of related files stored together is known as a:",
+    "answers": ["Database", "Folder", "Disk", "Program"],
+    "answer": "Folder",
+    "explanation": "Folders help organize files on a computer."
+  },
+  {
+    "id": 17,
+    "question": "Which of the following is an example of a search engine?",
+    "answers": ["Facebook", "Google", "WhatsApp", "Zoom"],
+    "answer": "Google",
+    "explanation": "Google is used to search for information online."
+  },
+  {
+    "id": 18,
+    "question": "The device that converts digital signals to analog signals for internet connection is:",
+    "answers": ["Router", "Modem", "Switch", "Hub"],
+    "answer": "Modem",
+    "explanation": "Modem means Modulator-Demodulator."
+  },
+  {
+    "id": 19,
+    "question": "Software used to protect computers from viruses is called:",
+    "answers": ["Firewall", "Anti-malware", "Antivirus", "Defender"],
+    "answer": "Antivirus",
+    "explanation": "Antivirus software detects and removes viruses."
+  },
+  {
+    "id": 20,
+    "question": "What is the full meaning of CPU?",
+    "answers": ["Central Processor Utility", "Central Processing Unit", "Control Processing Unit", "Computer Power Unit"],
+    "answer": "Central Processing Unit",
+    "explanation": "CPU is the brain of the computer."
+  },
+  {
+    "id": 21,
+    "question": "ROM is used to store:",
+    "answers": ["Temporary data", "Permanent instructions", "User files", "Downloaded apps"],
+    "answer": "Permanent instructions",
+    "explanation": "ROM stores firmware such as the BIOS."
+  },
+  {
+    "id": 22,
+    "question": "Linux is an example of a:",
+    "answers": ["Web browser", "Programming language", "Operating system", "Network device"],
+    "answer": "Operating system",
+    "explanation": "Linux is an open-source OS."
+  },
+  {
+    "id": 23,
+    "question": "Which of the following is used to make hard copies of documents?",
+    "answers": ["Monitor", "Mouse", "Printer", "Keyboard"],
+    "answer": "Printer",
+    "explanation": "Printers produce physical output on paper."
+  },
+  {
+    "id": 24,
+    "question": "Data that has been processed into a useful form is called:",
+    "answers": ["Input", "Output", "Information", "File"],
+    "answer": "Information",
+    "explanation": "Information is processed data."
+  },
+  {
+    "id": 25,
+    "question": "Which of these is an example of portable storage?",
+    "answers": ["RAM", "USB flash drive", "Processor", "ROM"],
+    "answer": "USB flash drive",
+    "explanation": "USB drives store data and can be easily carried."
+  },
+  {
+    "id": 26,
+    "question": "The unit of measurement for computer memory is:",
+    "answers": ["Volts", "Bytes", "Pixels", "Hertz"],
+    "answer": "Bytes",
+    "explanation": "Memory capacity is measured in bytes (e.g., MB, GB)."
+  },
+  {
+    "id": 27,
+    "question": "Which of the following is NOT an example of application software?",
+    "answers": ["Excel", "Photoshop", "Chrome", "BIOS"],
+    "answer": "BIOS",
+    "explanation": "BIOS is system firmware, not application software."
+  },
+  {
+    "id": 28,
+    "question": "The process of starting up a computer is called:",
+    "answers": ["Warming", "Loading", "Booting", "Restarting"],
+    "answer": "Booting",
+    "explanation": "Booting loads the OS into memory."
+  },
+  {
+    "id": 29,
+    "question": "A computer program that replicates itself is known as:",
+    "answers": ["Worm", "Trojan", "Bot", "Cookie"],
+    "answer": "Worm",
+    "explanation": "Worms self-replicate and spread across networks."
+  },
+  {
+    "id": 30,
+    "question": "The temporary storage used by the CPU for quick access is called:",
+    "answers": ["Hard disk", "ROM", "Cache", "Cloud"],
+    "answer": "Cache",
+    "explanation": "Cache stores frequently used instructions for fast access."
+  },
+  {
+    "id": 31,
+    "question": "A computer virus spreads through:",
+    "answers": ["Sunlight", "Infected files", "Electricity", "Cooling fans"],
+    "answer": "Infected files",
+    "explanation": "Viruses multiply through infected programs."
+  },
+  {
+    "id": 32,
+    "question": "Which protocol is used for sending emails?",
+    "answers": ["HTTP", "SMTP", "FTP", "TCP"],
+    "answer": "SMTP",
+    "explanation": "Simple Mail Transfer Protocol sends emails."
+  },
+  {
+    "id": 33,
+    "question": "Which of these is an example of an input device?",
+    "answers": ["Printer", "Keyboard", "Projector", "Speaker"],
+    "answer": "Keyboard",
+    "explanation": "A keyboard is used to input data into the computer."
+  },
+  {
+    "id": 34,
+    "question": "A group of linked computers that share resources is known as a:",
+    "answers": ["Network", "Browser", "Server", "Utility"],
+    "answer": "Network",
+    "explanation": "A network connects computers for communication and resource sharing."
+  },
+  {
+    "id": 35,
+    "question": "Which of the following is an example of cloud storage?",
+    "answers": ["Flash drive", "Google Drive", "Hard disk", "Memory card"],
+    "answer": "Google Drive",
+    "explanation": "Cloud storage stores data online."
+  },
+  {
+    "id": 36,
+    "question": "The small pictures on desktop that represent files or programs are called:",
+    "answers": ["Icons", "Links", "Tags", "Graphics"],
+    "answer": "Icons",
+    "explanation": "Icons visually represent programs and files."
+  },
+  {
+    "id": 37,
+    "question": "Which of the following is responsible for controlling all activities of the computer?",
+    "answers": ["RAM", "Keyboard", "Operating system", "Monitor"],
+    "answer": "Operating system",
+    "explanation": "The OS manages hardware and software resources."
+  },
+  {
+    "id": 38,
+    "question": "Which of the following is used to access websites?",
+    "answers": ["Word processor", "Spreadsheet", "Web browser", "Compiler"],
+    "answer": "Web browser",
+    "explanation": "Browsers like Chrome and Firefox access web pages."
+  },
+  {
+    "id": 39,
+    "question": "The device used to display projected computer output on a large screen is:",
+    "answers": ["Monitor", "Photocopier", "Projector", "Plotter"],
+    "answer": "Projector",
+    "explanation": "Projectors display visual output on surfaces."
+  },
+  {
+    "id": 40,
+    "question": "Which of the following is NOT a type of computer?",
+    "answers": ["Supercomputer", "Mainframe", "Minicomputer", "Television"],
+    "answer": "Television",
+    "explanation": "A television is not a computer classification."
+  }
+]

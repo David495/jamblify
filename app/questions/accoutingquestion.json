@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "question": "Accounting is best defined as the process of:",
+    "answers": ["Recording only assets", "Recording, classifying and summarizing financial information", "Preparing salaries", "Preparing vouchers"],
+    "answer": "Recording, classifying and summarizing financial information",
+    "explanation": "Accounting involves recording, classifying, summarizing and interpreting financial data."
+  },
+  {
+    "id": 2,
+    "question": "The owner’s claim on the assets of a business is called:",
+    "answers": ["Liability", "Asset", "Capital", "Revenue"],
+    "answer": "Capital",
+    "explanation": "Capital is the owner's equity or claim on the business assets."
+  },
+  {
+    "id": 3,
+    "question": "Which of the following is an example of a current asset?",
+    "answers": ["Buildings", "Motor vehicles", "Inventory", "Machinery"],
+    "answer": "Inventory",
+    "explanation": "Current assets are assets that can be easily converted into cash within one year."
+  },
+  {
+    "id": 4,
+    "question": "A liability is defined as:",
+    "answers": ["An amount owed by the business", "An amount owed to the business", "An owner's contribution", "A type of revenue"],
+    "answer": "An amount owed by the business",
+    "explanation": "Liabilities represent obligations the business must pay in the future."
+  },
+  {
+    "id": 5,
+    "question": "The accounting equation is:",
+    "answers": ["Assets = Revenue + Capital", "Assets = Capital − Liabilities", "Assets = Capital + Liabilities", "Capital = Assets + Liabilities"],
+    "answer": "Assets = Capital + Liabilities",
+    "explanation": "This is the basic accounting identity."
+  },
+  {
+    "id": 6,
+    "question": "Which document is used to record credit purchases?",
+    "answers": ["Receipt", "Invoice", "Payment voucher", "Credit note"],
+    "answer": "Invoice",
+    "explanation": "Invoices are issued for credit purchases or sales."
+  },
+  {
+    "id": 7,
+    "question": "Depreciation is charged on:",
+    "answers": ["Current assets", "Fixed assets", "Liabilities", "Capital"],
+    "answer": "Fixed assets",
+    "explanation": "Depreciation is the loss in value of fixed assets due to usage or time."
+  },
+  {
+    "id": 8,
+    "question": "Which of the following is NOT a book of original entry?",
+    "answers": ["Sales day book", "Journal proper", "General ledger", "Purchases day book"],
+    "answer": "General ledger",
+    "explanation": "The general ledger contains final entries, not original entries."
+  },
+  {
+    "id": 9,
+    "question": "The document issued when goods are returned to a supplier is:",
+    "answers": ["Debit note", "Credit note", "Receipt", "Invoice"],
+    "answer": "Debit note",
+    "explanation": "A debit note is issued when returning goods purchased on credit."
+  },
+  {
+    "id": 10,
+    "question": "What type of account is a creditor?",
+    "answers": ["Asset", "Expense", "Income", "Liability"],
+    "answer": "Liability",
+    "explanation": "Creditors represent amounts owed by the business."
+  },
+  {
+    "id": 11,
+    "question": "Which account is debited when goods are bought on credit?",
+    "answers": ["Purchases account", "Sales account", "Cash account", "Capital account"],
+    "answer": "Purchases account",
+    "explanation": "Purchases account is debited when goods are purchased."
+  },
+  {
+    "id": 12,
+    "question": "Which of these is an intangible asset?",
+    "answers": ["Patent", "Building", "Motor van", "Equipment"],
+    "answer": "Patent",
+    "explanation": "Intangible assets have no physical form but hold value."
+  },
+  {
+    "id": 13,
+    "question": "A trial balance is prepared to:",
+    "answers": ["Determine profit", "Detect errors", "Prepare vouchers", "Calculate depreciation"],
+    "answer": "Detect errors",
+    "explanation": "A trial balance checks the arithmetic accuracy of ledger accounts."
+  },
+  {
+    "id": 14,
+    "question": "Which statement shows the financial position of a business?",
+    "answers": ["Trading account", "Balance sheet", "Income statement", "Cash book"],
+    "answer": "Balance sheet",
+    "explanation": "The balance sheet lists assets, liabilities and capital at a point in time."
+  },
+  {
+    "id": 15,
+    "question": "Which of the following is an example of a direct expense?",
+    "answers": ["Carriage inwards", "Carriage outwards", "Fuel", "Rent"],
+    "answer": "Carriage inwards",
+    "explanation": "Carriage inwards is directly related to the purchase of goods."
+  },
+  {
+    "id": 16,
+    "question": "The term drawings refers to:",
+    "answers": ["Money invested in business", "Goods taken by owner for personal use", "Profit made by business", "Loan repayment"],
+    "answer": "Goods taken by owner for personal use",
+    "explanation": "Drawings reduce the owner’s capital."
+  },
+  {
+    "id": 17,
+    "question": "Which of the following is a revenue expenditure?",
+    "answers": ["Purchase of machinery", "Repair of machinery", "Purchase of land", "Extension of building"],
+    "answer": "Repair of machinery",
+    "explanation": "Revenue expenditures maintain assets but do not increase their value."
+  },
+  {
+    "id": 18,
+    "question": "A statement showing all assets and liabilities is called:",
+    "answers": ["Income statement", "Balance sheet", "Ledger", "Cash book"],
+    "answer": "Balance sheet",
+    "explanation": "It reveals financial position at a point in time."
+  },
+  {
+    "id": 19,
+    "question": "Which of these is classified as fixed assets?",
+    "answers": ["Furniture", "Inventory", "Accounts receivable", "Cash"],
+    "answer": "Furniture",
+    "explanation": "Fixed assets are long-term assets used in the business."
+  },
+  {
+    "id": 20,
+    "question": "The return of defective goods to a supplier is recorded in the:",
+    "answers": ["Purchases journal", "Returns outward journal", "Cash book", "General journal"],
+    "answer": "Returns outward journal",
+    "explanation": "This journal records goods returned to suppliers."
+  },
+  {
+    "id": 21,
+    "question": "Cash discounts are allowed to encourage:",
+    "answers": ["Early repayment", "Late repayment", "More purchases", "Loan extension"],
+    "answer": "Early repayment",
+    "explanation": "Buyers are given a discount if they pay early."
+  },
+  {
+    "id": 22,
+    "question": "Which of these accounts normally has a credit balance?",
+    "answers": ["Purchases", "Rent", "Sales", "Wages"],
+    "answer": "Sales",
+    "explanation": "Sales increase equity and therefore have a credit balance."
+  },
+  {
+    "id": 23,
+    "question": "The book used to record petty expenses is:",
+    "answers": ["Journal", "Petty cash book", "Ledger", "Cash book"],
+    "answer": "Petty cash book",
+    "explanation": "The petty cash book records small payments such as transport."
+  },
+  {
+    "id": 24,
+    "question": "Which account is credited when cash is withdrawn from the bank?",
+    "answers": ["Bank account", "Capital account", "Cash account", "Purchases account"],
+    "answer": "Bank account",
+    "explanation": "Withdrawing cash reduces bank balance, so bank account is credited."
+  },
+  {
+    "id": 25,
+    "question": "Goodwill is an example of:",
+    "answers": ["Current asset", "Tangible asset", "Intangible asset", "Liability"],
+    "answer": "Intangible asset",
+    "explanation": "Goodwill has no physical form but adds value to a business."
+  },
+  {
+    "id": 26,
+    "question": "Which of the following errors affects the agreement of the trial balance?",
+    "answers": ["Error of omission", "Error of commission", "Error of principle", "Partial omission"],
+    "answer": "Partial omission",
+    "explanation": "A partial omission leads to one-sided entry, affecting the trial balance."
+  },
+  {
+    "id": 27,
+    "question": "The excess of revenue over expenses is called:",
+    "answers": ["Loss", "Capital", "Profit", "Liability"],
+    "answer": "Profit",
+    "explanation": "Profit = revenue – expenses."
+  },
+  {
+    "id": 28,
+    "question": "Which of the following increases owner's equity?",
+    "answers": ["Loss", "Expenses", "Capital introduced", "Drawings"],
+    "answer": "Capital introduced",
+    "explanation": "Additional capital increases owner’s equity."
+  },
+  {
+    "id": 29,
+    "question": "A trial balance is said to balance when:",
+    "answers": ["Total credit equals total debit", "Assets equal liabilities", "Capital equals liabilities", "Revenue equals expenses"],
+    "answer": "Total credit equals total debit",
+    "explanation": "A balanced trial balance indicates correct ledger posting."
+  },
+  {
+    "id": 30,
+    "question": "Which of the following is NOT an asset?",
+    "answers": ["Debtors", "Stock", "Loan from bank", "Cash"],
+    "answer": "Loan from bank",
+    "explanation": "Loan from bank is a liability."
+  },
+  {
+    "id": 31,
+    "question": "The book where transactions are first recorded is:",
+    "answers": ["Journal", "Ledger", "Cash book", "Balance sheet"],
+    "answer": "Journal",
+    "explanation": "Journal is the book of original entry."
+  },
+  {
+    "id": 32,
+    "question": "The total of the debit side of a ledger account is known as:",
+    "answers": ["Debit balance", "Credit balance", "Turnover", "Gross amount"],
+    "answer": "Debit balance",
+    "explanation": "The difference between debit and credit gives the account balance."
+  },
+  {
+    "id": 33,
+    "question": "Which account is affected when goods are sold on credit?",
+    "answers": ["Debtors account", "Creditors account", "Capital account", "Cash account"],
+    "answer": "Debtors account",
+    "explanation": "The buyer becomes a debtor to the business."
+  },
+  {
+    "id": 34,
+    "question": "Carriage outwards is classified as:",
+    "answers": ["Purchases expense", "Sales expense", "Capital expenditure", "Income"],
+    "answer": "Sales expense",
+    "explanation": "It is an expense associated with the distribution of goods."
+  },
+  {
+    "id": 35,
+    "question": "The term turnover refers to:",
+    "answers": ["Cash at bank", "Amount owed", "Total sales made", "Total capital"],
+    "answer": "Total sales made",
+    "explanation": "Turnover means total revenue from sales."
+  },
+  {
+    "id": 36,
+    "question": "Which account is debited when goods are returned by customers?",
+    "answers": ["Sales returns account", "Purchases account", "Cash account", "Capital account"],
+    "answer": "Sales returns account",
+    "explanation": "Sales returns reduce sales and must be debited."
+  },
+  {
+    "id": 37,
+    "question": "A ledger is a book that contains:",
+    "answers": ["Personal accounts only", "All accounts of the business", "Cash transactions only", "Purchases and sales only"],
+    "answer": "All accounts of the business",
+    "explanation": "The ledger contains all personal, real, and nominal accounts."
+  },
+  {
+    "id": 38,
+    "question": "The source document for cash received is:",
+    "answers": ["Invoice", "Receipt", "Credit note", "Cheque"],
+    "answer": "Receipt",
+    "explanation": "Receipts are issued for cash received."
+  },
+  {
+    "id": 39,
+    "question": "When expenses exceed income, the result is:",
+    "answers": ["Profit", "Loan", "Loss", "Capital"],
+    "answer": "Loss",
+    "explanation": "Loss = expenses - income."
+  },
+  {
+    "id": 40,
+    "question": "Which of the following is an indirect expense?",
+    "answers": ["Factory wages", "Carriage inwards", "Office rent", "Raw materials"],
+    "answer": "Office rent",
+    "explanation": "Office rent is not directly connected to production."
+  }
+]

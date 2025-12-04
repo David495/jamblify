@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "question": "Which of the following quantities is a vector?",
+    "answers": ["Speed", "Distance", "Displacement", "Mass"],
+    "answer": "Displacement",
+    "explanation": "Displacement has magnitude and direction, making it a vector."
+  },
+  {
+    "id": 2,
+    "question": "The slope of a displacement–time graph represents:",
+    "answers": ["Speed", "Velocity", "Acceleration", "Force"],
+    "answer": "Velocity",
+    "explanation": "Velocity is the rate of change of displacement."
+  },
+  {
+    "id": 3,
+    "question": "A body of mass 10 kg is lifted through 5 m. What is the work done? (g = 10 m/s²)",
+    "answers": ["10 J", "50 J", "100 J", "500 J"],
+    "answer": "500 J",
+    "explanation": "Work = mgh = 10 × 10 × 5 = 500 J."
+  },
+  {
+    "id": 4,
+    "question": "Which of the following is NOT a derived unit?",
+    "answers": ["Newton", "Watt", "Kelvin", "Joule"],
+    "answer": "Kelvin",
+    "explanation": "Kelvin is a base unit of temperature."
+  },
+  {
+    "id": 5,
+    "question": "A car moves with a uniform velocity of 20 m/s for 10 seconds. What distance is covered?",
+    "answers": ["10 m", "20 m", "100 m", "200 m"],
+    "answer": "200 m",
+    "explanation": "Distance = velocity × time = 20 × 10 = 200 m."
+  },
+  {
+    "id": 6,
+    "question": "The instrument used to measure relative humidity is:",
+    "answers": ["Ammeter", "Hygrometer", "Barometer", "Anemometer"],
+    "answer": "Hygrometer",
+    "explanation": "A hygrometer measures the moisture content in air."
+  },
+  {
+    "id": 7,
+    "question": "What is the speed of sound in air at room temperature?",
+    "answers": ["150 m/s", "250 m/s", "340 m/s", "400 m/s"],
+    "answer": "340 m/s",
+    "explanation": "At 27°C, the speed of sound in air is approximately 340 m/s."
+  },
+  {
+    "id": 8,
+    "question": "Which law states that the pressure of a gas is inversely proportional to its volume?",
+    "answers": ["Charles' Law", "Boyle's Law", "Hooke's Law", "Newton's Law"],
+    "answer": "Boyle's Law",
+    "explanation": "Boyle's law: P ∝ 1/V."
+  },
+  {
+    "id": 9,
+    "question": "The energy stored in a stretched spring is known as:",
+    "answers": ["Kinetic energy", "Potential energy", "Chemical energy", "Nuclear energy"],
+    "answer": "Potential energy",
+    "explanation": "It is elastic potential energy."
+  },
+  {
+    "id": 10,
+    "question": "Which of these materials is a good conductor of electricity?",
+    "answers": ["Glass", "Rubber", "Copper", "Plastic"],
+    "answer": "Copper",
+    "explanation": "Copper is a metal and conducts electricity well."
+  },
+  {
+    "id": 11,
+    "question": "The unit of electric charge is:",
+    "answers": ["Volt", "Ampere", "Coulomb", "Ohm"],
+    "answer": "Coulomb",
+    "explanation": "Charge is measured in coulombs (C)."
+  },
+  {
+    "id": 12,
+    "question": "What is the period of a wave with frequency 50 Hz?",
+    "answers": ["0.02 s", "0.2 s", "2 s", "5 s"],
+    "answer": "0.02 s",
+    "explanation": "Period = 1/f = 1/50 = 0.02 s."
+  },
+  {
+    "id": 13,
+    "question": "A convex lens is also called:",
+    "answers": ["Diverging lens", "Focusing lens", "Scattering lens", "Reflecting lens"],
+    "answer": "Focusing lens",
+    "explanation": "Convex lenses converge light to a focus."
+  },
+  {
+    "id": 14,
+    "question": "Which type of mirror is used in car side mirrors?",
+    "answers": ["Concave mirror", "Convex mirror", "Plane mirror", "Parabolic mirror"],
+    "answer": "Convex mirror",
+    "explanation": "Convex mirrors provide a wide field of view."
+  },
+  {
+    "id": 15,
+    "question": "The ability of a body to resist change in motion is called:",
+    "answers": ["Energy", "Power", "Inertia", "Momentum"],
+    "answer": "Inertia",
+    "explanation": "Inertia is the tendency of a body to continue in its state of rest or motion."
+  },
+  {
+    "id": 16,
+    "question": "Which of the following is a non-renewable energy source?",
+    "answers": ["Solar", "Wind", "Petroleum", "Hydro"],
+    "answer": "Petroleum",
+    "explanation": "Fossil fuels are non-renewable."
+  },
+  {
+    "id": 17,
+    "question": "The S.I. unit of pressure is:",
+    "answers": ["Pascal", "Newton", "Joule", "Watt"],
+    "answer": "Pascal",
+    "explanation": "Pressure = Force/Area = N/m² = Pascal."
+  },
+  {
+    "id": 18,
+    "question": "The image formed by a plane mirror is:",
+    "answers": ["Real", "Inverted", "Diminished", "Virtual"],
+    "answer": "Virtual",
+    "explanation": "Plane mirrors always form virtual, upright images."
+  },
+  {
+    "id": 19,
+    "question": "The phenomenon that causes a pencil in water to appear bent is:",
+    "answers": ["Reflection", "Refraction", "Diffraction", "Interference"],
+    "answer": "Refraction",
+    "explanation": "Refraction bends light as it moves between media."
+  },
+  {
+    "id": 20,
+    "question": "The device used to detect electric current is:",
+    "answers": ["Voltmeter", "Ammeter", "Galvanometer", "Ohmmeter"],
+    "answer": "Galvanometer",
+    "explanation": "A galvanometer detects small currents."
+  },
+  {
+    "id": 21,
+    "question": "An object whose density is less than that of water will:",
+    "answers": ["Sink", "Float", "Vibrate", "Evaporate"],
+    "answer": "Float",
+    "explanation": "Objects with lower density than water float."
+  },
+  {
+    "id": 22,
+    "question": "Which radiation has the highest penetrating power?",
+    "answers": ["Alpha", "Beta", "Gamma", "Infrared"],
+    "answer": "Gamma",
+    "explanation": "Gamma rays are highly penetrating electromagnetic waves."
+  },
+  {
+    "id": 23,
+    "question": "The rate of doing work is called:",
+    "answers": ["Energy", "Power", "Force", "Pressure"],
+    "answer": "Power",
+    "explanation": "Power = Work/Time."
+  },
+  {
+    "id": 24,
+    "question": "Which of the following is a scalar quantity?",
+    "answers": ["Velocity", "Force", "Momentum", "Speed"],
+    "answer": "Speed",
+    "explanation": "Speed has magnitude only."
+  },
+  {
+    "id": 25,
+    "question": "Liquids expand when heated because:",
+    "answers": ["Molecules shrink", "Molecules move faster", "Mass increases", "Density increases"],
+    "answer": "Molecules move faster",
+    "explanation": "Heating increases molecular vibration."
+  },
+  {
+    "id": 26,
+    "question": "The focal length of a lens is 20 cm. What is its power?",
+    "answers": ["0.2 D", "2 D", "5 D", "20 D"],
+    "answer": "5 D",
+    "explanation": "Power = 1/f (in metres) = 1/0.2 = 5 D."
+  },
+  {
+    "id": 27,
+    "question": "Which type of circuit allows current to follow only one path?",
+    "answers": ["Parallel", "Series", "Mixed", "Open"],
+    "answer": "Series",
+    "explanation": "Series circuits have a single pathway."
+  },
+  {
+    "id": 28,
+    "question": "What is the acceleration due to gravity on Earth?",
+    "answers": ["8.0 m/s²", "9.8 m/s²", "10.5 m/s²", "12 m/s²"],
+    "answer": "9.8 m/s²",
+    "explanation": "Standard acceleration due to gravity is 9.8 m/s²."
+  },
+  {
+    "id": 29,
+    "question": "The force that opposes motion between touching surfaces is:",
+    "answers": ["Tension", "Friction", "Magnetism", "Viscosity"],
+    "answer": "Friction",
+    "explanation": "Friction resists relative motion of surfaces."
+  },
+  {
+    "id": 30,
+    "question": "Sound cannot travel through:",
+    "answers": ["A solid", "A liquid", "A gas", "A vacuum"],
+    "answer": "A vacuum",
+    "explanation": "Sound needs a medium to travel."
+  },
+  {
+    "id": 31,
+    "question": "The instrument used to measure atmospheric pressure is:",
+    "answers": ["Thermometer", "Hygrometer", "Barometer", "Ammeter"],
+    "answer": "Barometer",
+    "explanation": "A barometer measures air pressure."
+  },
+  {
+    "id": 32,
+    "question": "Which colour of light has the shortest wavelength?",
+    "answers": ["Red", "Green", "Blue", "Violet"],
+    "answer": "Violet",
+    "explanation": "Violet light has the highest frequency and shortest wavelength."
+  },
+  {
+    "id": 33,
+    "question": "A transformer is used to:",
+    "answers": ["Store charge", "Increase or decrease voltage", "Measure resistance", "Generate electricity"],
+    "answer": "Increase or decrease voltage",
+    "explanation": "Transformers step voltage up or down."
+  },
+  {
+    "id": 34,
+    "question": "The boiling point of water in Kelvin is:",
+    "answers": ["100 K", "273 K", "373 K", "473 K"],
+    "answer": "373 K",
+    "explanation": "100°C = 373 K."
+  },
+  {
+    "id": 35,
+    "question": "A 10-ohm resistor carries a current of 2 A. What is the voltage across it?",
+    "answers": ["2 V", "5 V", "10 V", "20 V"],
+    "answer": "20 V",
+    "explanation": "V = IR = 2 × 10 = 20 V."
+  },
+  {
+    "id": 36,
+    "question": "Which of the following is an example of Newton's Third Law?",
+    "answers": ["A ball at rest stays at rest", "A car accelerates when pushed", "A rocket moves upward as gases move downward", "Force = mass × acceleration"],
+    "answer": "A rocket moves upward as gases move downward",
+    "explanation": "For every action, there is an equal and opposite reaction."
+  },
+  {
+    "id": 37,
+    "question": "Heat transfer through solids occurs mainly by:",
+    "answers": ["Radiation", "Conduction", "Convection", "Evaporation"],
+    "answer": "Conduction",
+    "explanation": "Heat flows by conduction in solids."
+  },
+  {
+    "id": 38,
+    "question": "Which particle has a negative charge?",
+    "answers": ["Proton", "Electron", "Neutron", "Alpha particle"],
+    "answer": "Electron",
+    "explanation": "Electrons carry a −1 charge."
+  },
+  {
+    "id": 39,
+    "question": "The S.I. unit of frequency is:",
+    "answers": ["Newton", "Hertz", "Joule", "Pascal"],
+    "answer": "Hertz",
+    "explanation": "Frequency is measured in hertz (Hz)."
+  },
+  {
+    "id": 40,
+    "question": "The separation of white light into colours by a prism is called:",
+    "answers": ["Reflection", "Refraction", "Dispersion", "Diffraction"],
+    "answer": "Dispersion",
+    "explanation": "Dispersion occurs because each colour refracts differently."
+  }
+]

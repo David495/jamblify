@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "question": "A story in which characters represent abstract ideas is called a:",
+    "answers": ["Fable", "Allegory", "Epic", "Ballad"],
+    "answer": "Allegory",
+    "explanation": "An allegory uses characters and events to symbolize deeper meanings."
+  },
+  {
+    "id": 2,
+    "question": "A poem of fourteen lines is called a:",
+    "answers": ["Elegy", "Sonnet", "Ode", "Ballad"],
+    "answer": "Sonnet",
+    "explanation": "Sonnets traditionally contain 14 lines with a specific rhyme scheme."
+  },
+  {
+    "id": 3,
+    "question": "The major character in a literary work is known as the:",
+    "answers": ["Antagonist", "Protagonist", "Chorus", "Foil"],
+    "answer": "Protagonist",
+    "explanation": "The protagonist is the central figure in a story."
+  },
+  {
+    "id": 4,
+    "question": "A play written to be performed on stage is called:",
+    "answers": ["Prose", "Drama", "Poetry", "Narrative"],
+    "answer": "Drama",
+    "explanation": "Drama is literature intended for performance."
+  },
+  {
+    "id": 5,
+    "question": "A struggle between opposing forces in a story is called:",
+    "answers": ["Theme", "Conflict", "Mood", "Setting"],
+    "answer": "Conflict",
+    "explanation": "Conflict drives the plot and creates tension."
+  },
+  {
+    "id": 6,
+    "question": "The atmosphere or emotional quality of a literary work is the:",
+    "answers": ["Tone", "Mood", "Plot", "Setting"],
+    "answer": "Mood",
+    "explanation": "Mood refers to the emotional feeling created for the reader."
+  },
+  {
+    "id": 7,
+    "question": "The time and place of a story is its:",
+    "answers": ["Setting", "Theme", "Plot", "Structure"],
+    "answer": "Setting",
+    "explanation": "Setting includes the physical and temporal environment."
+  },
+  {
+    "id": 8,
+    "question": "A literary device that gives human qualities to non-human things is:",
+    "answers": ["Simile", "Metaphor", "Personification", "Irony"],
+    "answer": "Personification",
+    "explanation": "Personification attributes human traits to objects or animals."
+  },
+  {
+    "id": 9,
+    "question": "A comparison using 'like' or 'as' is known as:",
+    "answers": ["Simile", "Metaphor", "Oxymoron", "Alliteration"],
+    "answer": "Simile",
+    "explanation": "Similes compare two things using 'like' or 'as'."
+  },
+  {
+    "id": 10,
+    "question": "In drama, the speech made by a character alone on stage is called:",
+    "answers": ["Dialogue", "Monologue", "Soliloquy", "Aside"],
+    "answer": "Soliloquy",
+    "explanation": "A soliloquy expresses a character’s inner thoughts."
+  },
+  {
+    "id": 11,
+    "question": "The lesson a writer wants the reader to learn is the:",
+    "answers": ["Theme", "Plot", "Tone", "Mood"],
+    "answer": "Theme",
+    "explanation": "Theme refers to the central message in a literary work."
+  },
+  {
+    "id": 12,
+    "question": "The turning point in a story is known as the:",
+    "answers": ["Exposition", "Climax", "Resolution", "Conflict"],
+    "answer": "Climax",
+    "explanation": "The climax is the peak moment of tension."
+  },
+  {
+    "id": 13,
+    "question": "A long narrative poem usually about heroic deeds is called:",
+    "answers": ["Epic", "Ballad", "Ode", "Lyric"],
+    "answer": "Epic",
+    "explanation": "An epic narrates the adventures of heroes."
+  },
+  {
+    "id": 14,
+    "question": "A type of literature that ends sadly is called:",
+    "answers": ["Comedy", "Tragedy", "Satire", "Farce"],
+    "answer": "Tragedy",
+    "explanation": "Tragedy deals with sorrowful or disastrous events."
+  },
+  {
+    "id": 15,
+    "question": "A writer of a play is called a:",
+    "answers": ["Poet", "Playwright", "Novelist", "Narrator"],
+    "answer": "Playwright",
+    "explanation": "A playwright writes plays for performance."
+  },
+  {
+    "id": 16,
+    "question": "Which of these is an example of sound devices in poetry?",
+    "answers": ["Irony", "Alliteration", "Symbolism", "Theme"],
+    "answer": "Alliteration",
+    "explanation": "Alliteration is the repetition of consonant sounds."
+  },
+  {
+    "id": 17,
+    "question": "A figure of speech that exaggerates for emphasis is:",
+    "answers": ["Hyperbole", "Metonymy", "Irony", "Euphemism"],
+    "answer": "Hyperbole",
+    "explanation": "Hyperbole intentionally exaggerates ideas."
+  },
+  {
+    "id": 18,
+    "question": "The narrator in a story is the:",
+    "answers": ["Audience", "Speaker", "Voice", "Plotter"],
+    "answer": "Voice",
+    "explanation": "The narrative voice tells the story."
+  },
+  {
+    "id": 19,
+    "question": "When the opposite of what is expected happens, it is called:",
+    "answers": ["Irony", "Oxymoron", "Satire", "Symbolism"],
+    "answer": "Irony",
+    "explanation": "Irony occurs when events turn out unexpectedly."
+  },
+  {
+    "id": 20,
+    "question": "A short story that teaches a moral lesson is a:",
+    "answers": ["Myth", "Folktale", "Parable", "Legend"],
+    "answer": "Parable",
+    "explanation": "Parables often teach moral or spiritual lessons."
+  },
+  {
+    "id": 21,
+    "question": "The sequence of events in a story is known as:",
+    "answers": ["Plot", "Theme", "Setting", "Mood"],
+    "answer": "Plot",
+    "explanation": "Plot describes the arrangement of events."
+  },
+  {
+    "id": 22,
+    "question": "A recurring symbol or idea in a literary work is called a:",
+    "answers": ["Genre", "Motif", "Tone", "Climax"],
+    "answer": "Motif",
+    "explanation": "A motif reinforces the themes of a work."
+  },
+  {
+    "id": 23,
+    "question": "A story handed down by word of mouth is a:",
+    "answers": ["Folklore", "Epic", "Prose", "Tragedy"],
+    "answer": "Folklore",
+    "explanation": "Folklore includes traditional stories passed down orally."
+  },
+  {
+    "id": 24,
+    "question": "A character whose qualities contrast with another character is a:",
+    "answers": ["Foil", "Protagonist", "Hero", "Antagonist"],
+    "answer": "Foil",
+    "explanation": "Foils highlight traits of other characters."
+  },
+  {
+    "id": 25,
+    "question": "An indirect reference to another work or event is called:",
+    "answers": ["Allusion", "Paradox", "Irony", "Symbolism"],
+    "answer": "Allusion",
+    "explanation": "Allusions reference history or literature subtly."
+  },
+  {
+    "id": 26,
+    "question": "A poem that expresses deep emotion is a:",
+    "answers": ["Lyric poem", "Epic", "Ballad", "Elegy"],
+    "answer": "Lyric poem",
+    "explanation": "Lyric poetry expresses personal feelings."
+  },
+  {
+    "id": 27,
+    "question": "A narrative work based on imaginary events is classified as:",
+    "answers": ["Non-fiction", "Fiction", "Biography", "Autobiography"],
+    "answer": "Fiction",
+    "explanation": "Fiction involves invented characters and events."
+  },
+  {
+    "id": 28,
+    "question": "The feeling or attitude of the writer is called:",
+    "answers": ["Tone", "Mood", "Style", "Theme"],
+    "answer": "Tone",
+    "explanation": "Tone reflects the writer’s attitude toward the subject."
+  },
+  {
+    "id": 29,
+    "question": "A poem that mourns the dead is a:",
+    "answers": ["Ode", "Elegy", "Epic", "Ballad"],
+    "answer": "Elegy",
+    "explanation": "An elegy laments the loss of someone."
+  },
+  {
+    "id": 30,
+    "question": "A humorous imitation of another work is called:",
+    "answers": ["Parody", "Satire", "Irony", "Fable"],
+    "answer": "Parody",
+    "explanation": "Parody imitates and exaggerates for humor."
+  },
+  {
+    "id": 31,
+    "question": "The point of view where the narrator uses 'I' is:",
+    "answers": ["Third-person", "Second-person", "First-person", "Omniscient"],
+    "answer": "First-person",
+    "explanation": "First-person point of view uses pronouns like 'I' and 'we'."
+  },
+  {
+    "id": 32,
+    "question": "A story that explains the origin of something is a:",
+    "answers": ["Legend", "Myth", "Epic", "Parable"],
+    "answer": "Myth",
+    "explanation": "Myths often explain natural or social phenomena."
+  },
+  {
+    "id": 33,
+    "question": "The emotional release a viewer feels at the end of a tragedy is:",
+    "answers": ["Catharsis", "Epilogue", "Mood", "Tone"],
+    "answer": "Catharsis",
+    "explanation": "Catharsis refers to emotional cleansing."
+  },
+  {
+    "id": 34,
+    "question": "A long work of fiction is a:",
+    "answers": ["Short story", "Novel", "Poem", "Drama"],
+    "answer": "Novel",
+    "explanation": "A novel is an extended fictional narrative."
+  },
+  {
+    "id": 35,
+    "question": "A literary work meant to ridicule human weaknesses is:",
+    "answers": ["Comedy", "Satire", "Elegy", "Ballad"],
+    "answer": "Satire",
+    "explanation": "Satire uses humor to criticize society."
+  },
+  {
+    "id": 36,
+    "question": "A brief remark addressed to the audience in drama is called an:",
+    "answers": ["Aside", "Soliloquy", "Dialogue", "Monologue"],
+    "answer": "Aside",
+    "explanation": "An aside reveals a character’s private thoughts directly to the audience."
+  },
+  {
+    "id": 37,
+    "question": "A story based on a real person’s life written by someone else is a:",
+    "answers": ["Biography", "Autobiography", "Memoir", "Legend"],
+    "answer": "Biography",
+    "explanation": "A biography is an account of another person’s life."
+  },
+  {
+    "id": 38,
+    "question": "A sudden realization or insight a character experiences is an:",
+    "answers": ["Epilogue", "Epiphany", "Aside", "Climax"],
+    "answer": "Epiphany",
+    "explanation": "An epiphany is a moment of great insight."
+  },
+  {
+    "id": 39,
+    "question": "A drama that ends happily is called a:",
+    "answers": ["Tragedy", "Comedy", "Melodrama", "Farce"],
+    "answer": "Comedy",
+    "explanation": "Comedies usually end in joy or celebration."
+  },
+  {
+    "id": 40,
+    "question": "The perspective from which a story is told is called:",
+    "answers": ["Plot", "Point of view", "Theme", "Tone"],
+    "answer": "Point of view",
+    "explanation": "Point of view determines how the narrative is presented."
+  }
+]

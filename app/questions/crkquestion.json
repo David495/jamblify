@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "question": "God created the world in how many days?",
+    "answers": ["Five days", "Six days", "Seven days", "Eight days"],
+    "answer": "Six days",
+    "explanation": "God created the world in six days and rested on the seventh."
+  },
+  {
+    "id": 2,
+    "question": "Who was the first man created by God?",
+    "answers": ["Abraham", "Moses", "Adam", "Noah"],
+    "answer": "Adam",
+    "explanation": "Adam was the first man God created."
+  },
+  {
+    "id": 3,
+    "question": "Who led the Israelites out of Egypt?",
+    "answers": ["Aaron", "Joshua", "Moses", "David"],
+    "answer": "Moses",
+    "explanation": "God chose Moses to lead Israel out of slavery."
+  },
+  {
+    "id": 4,
+    "question": "The mother of Jesus is:",
+    "answers": ["Elizabeth", "Sarah", "Mary", "Martha"],
+    "answer": "Mary",
+    "explanation": "Mary was chosen by God to give birth to Jesus."
+  },
+  {
+    "id": 5,
+    "question": "Who betrayed Jesus?",
+    "answers": ["Peter", "John", "Judas Iscariot", "Thomas"],
+    "answer": "Judas Iscariot",
+    "explanation": "Judas betrayed Jesus for thirty pieces of silver."
+  },
+  {
+    "id": 6,
+    "question": "Which disciple denied Jesus three times?",
+    "answers": ["Peter", "James", "Andrew", "Philip"],
+    "answer": "Peter",
+    "explanation": "Jesus predicted Peter’s denial before the rooster crowed."
+  },
+  {
+    "id": 7,
+    "question": "After the flood, God made a covenant with Noah using a:",
+    "answers": ["Dove", "Rainbow", "Star", "Cloud"],
+    "answer": "Rainbow",
+    "explanation": "The rainbow signified God's promise never to destroy the earth by flood again."
+  },
+  {
+    "id": 8,
+    "question": "The number of disciples Jesus chose was:",
+    "answers": ["10", "12", "14", "7"],
+    "answer": "12",
+    "explanation": "Jesus appointed twelve disciples to follow Him."
+  },
+  {
+    "id": 9,
+    "question": "Who was sold into slavery by his brothers?",
+    "answers": ["Joseph", "Moses", "David", "Samuel"],
+    "answer": "Joseph",
+    "explanation": "Joseph’s brothers sold him because they envied him."
+  },
+  {
+    "id": 10,
+    "question": "The first miracle of Jesus was performed at:",
+    "answers": ["Nazareth", "Capernaum", "Cana", "Jerusalem"],
+    "answer": "Cana",
+    "explanation": "Jesus turned water into wine at the wedding in Cana."
+  },
+  {
+    "id": 11,
+    "question": "Who killed Goliath?",
+    "answers": ["Saul", "David", "Solomon", "Samson"],
+    "answer": "David",
+    "explanation": "David defeated Goliath with a sling and a stone."
+  },
+  {
+    "id": 12,
+    "question": "What did God create on the seventh day?",
+    "answers": ["Animals", "Light", "Nothing", "Plants"],
+    "answer": "Nothing",
+    "explanation": "God rested on the seventh day."
+  },
+  {
+    "id": 13,
+    "question": "Jesus was baptized by:",
+    "answers": ["Peter", "James", "John the Baptist", "Andrew"],
+    "answer": "John the Baptist",
+    "explanation": "John the Baptist baptized Jesus in the River Jordan."
+  },
+  {
+    "id": 14,
+    "question": "The fruits of the Holy Spirit are listed in which book?",
+    "answers": ["Genesis", "Galatians", "Matthew", "Exodus"],
+    "answer": "Galatians",
+    "explanation": "Galatians 5:22–23 lists the fruits of the Spirit."
+  },
+  {
+    "id": 15,
+    "question": "Who interpreted dreams in Egypt?",
+    "answers": ["Samuel", "Joseph", "Daniel", "Moses"],
+    "answer": "Joseph",
+    "explanation": "Joseph interpreted Pharaoh’s dreams."
+  },
+  {
+    "id": 16,
+    "question": "Jesus fed 5,000 people with:",
+    "answers": ["Two fish and five loaves", "Five fish and two loaves", "Ten loaves", "Seven loaves"],
+    "answer": "Two fish and five loaves",
+    "explanation": "Jesus miraculously multiplied the food."
+  },
+  {
+    "id": 17,
+    "question": "Who was swallowed by a big fish?",
+    "answers": ["Elijah", "Jonah", "Moses", "David"],
+    "answer": "Jonah",
+    "explanation": "Jonah spent three days inside the fish."
+  },
+  {
+    "id": 18,
+    "question": "Where was Jesus born?",
+    "answers": ["Jerusalem", "Nazareth", "Bethlehem", "Bethany"],
+    "answer": "Bethlehem",
+    "explanation": "Jesus was born in Bethlehem of Judea."
+  },
+  {
+    "id": 19,
+    "question": "Who anointed David as king?",
+    "answers": ["Nathan", "Samuel", "Elijah", "Elisha"],
+    "answer": "Samuel",
+    "explanation": "Prophet Samuel anointed David as king of Israel."
+  },
+  {
+    "id": 20,
+    "question": "The Golden Rule teaches us to:",
+    "answers": ["Pray often", "Love money", "Do unto others as you want them to do to you", "Avoid work"],
+    "answer": "Do unto others as you want them to do to you",
+    "explanation": "The Golden Rule is a core teaching of Jesus on love."
+  },
+  {
+    "id": 21,
+    "question": "Abraham was asked by God to sacrifice his son:",
+    "answers": ["Ishmael", "Jacob", "Joseph", "Isaac"],
+    "answer": "Isaac",
+    "explanation": "God tested Abraham's faith by asking him to sacrifice Isaac."
+  },
+  {
+    "id": 22,
+    "question": "The Ten Commandments were given to:",
+    "answers": ["Jacob", "Moses", "Aaron", "Joshua"],
+    "answer": "Moses",
+    "explanation": "God gave Moses the commandments on Mount Sinai."
+  },
+  {
+    "id": 23,
+    "question": "The Bible is divided into how many major parts?",
+    "answers": ["1", "2", "3", "4"],
+    "answer": "2",
+    "explanation": "The Bible has the Old and New Testaments."
+  },
+  {
+    "id": 24,
+    "question": "The longest book in the Bible is:",
+    "answers": ["Genesis", "Psalms", "Exodus", "Isaiah"],
+    "answer": "Psalms",
+    "explanation": "Psalms contains 150 chapters."
+  },
+  {
+    "id": 25,
+    "question": "The father of John the Baptist was:",
+    "answers": ["Zechariah", "Abraham", "Joseph", "Luke"],
+    "answer": "Zechariah",
+    "explanation": "Zechariah and Elizabeth were John’s parents."
+  },
+  {
+    "id": 26,
+    "question": "The man who doubted Jesus after the resurrection was:",
+    "answers": ["Peter", "Philip", "Thomas", "Andrew"],
+    "answer": "Thomas",
+    "explanation": "Thomas doubted until he saw Jesus' wounds."
+  },
+  {
+    "id": 27,
+    "question": "Who wrote most of the letters in the New Testament?",
+    "answers": ["Peter", "John", "Paul", "James"],
+    "answer": "Paul",
+    "explanation": "Apostle Paul wrote many epistles."
+  },
+  {
+    "id": 28,
+    "question": "The Sermon on the Mount is found in which Gospel?",
+    "answers": ["Luke", "John", "Mark", "Matthew"],
+    "answer": "Matthew",
+    "explanation": "It is recorded in Matthew chapters 5–7."
+  },
+  {
+    "id": 29,
+    "question": "The first Christian martyr was:",
+    "answers": ["James", "Stephen", "Peter", "Matthew"],
+    "answer": "Stephen",
+    "explanation": "Stephen was stoned to death for preaching about Jesus."
+  },
+  {
+    "id": 30,
+    "question": "The fruit that Adam and Eve ate led to:",
+    "answers": ["Salvation", "The fall of man", "Blessing", "Multiplication"],
+    "answer": "The fall of man",
+    "explanation": "Eating the forbidden fruit caused the fall of man."
+  },
+  {
+    "id": 31,
+    "question": "Who deceived Eve in the Garden of Eden?",
+    "answers": ["Snake", "Lion", "Goat", "Serpent"],
+    "answer": "Serpent",
+    "explanation": "The serpent deceived Eve into eating the fruit."
+  },
+  {
+    "id": 32,
+    "question": "The shortest verse in the Bible is found in:",
+    "answers": ["Matthew", "John", "Luke", "Mark"],
+    "answer": "John",
+    "explanation": "John 11:35 — 'Jesus wept.'"
+  },
+  {
+    "id": 33,
+    "question": "Pentecost occurred how many days after Jesus’ resurrection?",
+    "answers": ["7 days", "30 days", "50 days", "100 days"],
+    "answer": "50 days",
+    "explanation": "Pentecost means 'fiftieth day.'"
+  },
+  {
+    "id": 34,
+    "question": "Jesus taught in parables to:",
+    "answers": ["Confuse the Pharisees", "Make His teachings simple", "Hide the truth", "Punish the disciples"],
+    "answer": "Make His teachings simple",
+    "explanation": "Parables were used to explain deep truths in simple ways."
+  },
+  {
+    "id": 35,
+    "question": "Which of these is a fruit of the Holy Spirit?",
+    "answers": ["Pride", "Joy", "Jealousy", "Anger"],
+    "answer": "Joy",
+    "explanation": "Joy is listed among the fruits of the Spirit."
+  },
+  {
+    "id": 36,
+    "question": "The disciple who replaced Judas Iscariot was:",
+    "answers": ["Silas", "Barnabas", "Matthias", "Titus"],
+    "answer": "Matthias",
+    "explanation": "Matthias was chosen to replace Judas."
+  },
+  {
+    "id": 37,
+    "question": "The place where Moses received the Ten Commandments was:",
+    "answers": ["Mount Carmel", "Mount Zion", "Mount Sinai", "Mount Tabor"],
+    "answer": "Mount Sinai",
+    "explanation": "God gave Moses the commandments on Mount Sinai."
+  },
+  {
+    "id": 38,
+    "question": "Who was the strongest man in the Bible?",
+    "answers": ["Saul", "Samson", "David", "Elijah"],
+    "answer": "Samson",
+    "explanation": "Samson’s strength came from God."
+  },
+  {
+    "id": 39,
+    "question": "Who was the first king of Israel?",
+    "answers": ["Saul", "David", "Solomon", "Rehoboam"],
+    "answer": "Saul",
+    "explanation": "Saul was anointed as the first king of Israel."
+  },
+  {
+    "id": 40,
+    "question": "Which apostle walked on water with Jesus?",
+    "answers": ["Peter", "John", "James", "Andrew"],
+    "answer": "Peter",
+    "explanation": "Peter walked on water until he became afraid and began to sink."
+  }
+]

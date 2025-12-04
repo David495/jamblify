@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "question": "The imaginary line that divides the Earth into Northern and Southern hemispheres is the:",
+    "answers": ["Prime Meridian", "Tropic of Cancer", "Equator", "Longitude"],
+    "answer": "Equator",
+    "explanation": "The equator is the 0° latitude dividing Earth into two equal halves."
+  },
+  {
+    "id": 2,
+    "question": "Which of the following is the smallest ocean in the world?",
+    "answers": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+    "answer": "Arctic Ocean",
+    "explanation": "The Arctic Ocean is the smallest and shallowest ocean."
+  },
+  {
+    "id": 3,
+    "question": "The process by which rocks are broken down into smaller pieces is called:",
+    "answers": ["Erosion", "Weathering", "Deposition", "Sedimentation"],
+    "answer": "Weathering",
+    "explanation": "Weathering breaks rocks into smaller fragments without movement."
+  },
+  {
+    "id": 4,
+    "question": "Lines that run from the North Pole to the South Pole are called:",
+    "answers": ["Latitudes", "Longitudes", "Contours", "Altitudes"],
+    "answer": "Longitudes",
+    "explanation": "Longitudes run vertically and measure east-west positions."
+  },
+  {
+    "id": 5,
+    "question": "Which of the following is a renewable resource?",
+    "answers": ["Coal", "Petroleum", "Wind", "Natural gas"],
+    "answer": "Wind",
+    "explanation": "Wind energy is renewable and sustainable."
+  },
+  {
+    "id": 6,
+    "question": "The instrument used to measure atmospheric pressure is:",
+    "answers": ["Thermometer", "Barometer", "Hygrometer", "Anemometer"],
+    "answer": "Barometer",
+    "explanation": "A barometer measures air pressure."
+  },
+  {
+    "id": 7,
+    "question": "The largest desert in the world is the:",
+    "answers": ["Gobi Desert", "Sahara Desert", "Kalahari Desert", "Arabian Desert"],
+    "answer": "Sahara Desert",
+    "explanation": "The Sahara is the world's largest hot desert."
+  },
+  {
+    "id": 8,
+    "question": "A natural depression on the Earth's surface where water collects is called a:",
+    "answers": ["Valley", "Lake", "Plateau", "Basin"],
+    "answer": "Lake",
+    "explanation": "A lake is a body of water surrounded by land."
+  },
+  {
+    "id": 9,
+    "question": "The scale on a map represents:",
+    "answers": ["Symbols used", "Direction", "Ratio of distance", "Height of place"],
+    "answer": "Ratio of distance",
+    "explanation": "Scale shows the ratio between map distance and actual distance."
+  },
+  {
+    "id": 10,
+    "question": "The longest river in Africa is the:",
+    "answers": ["River Niger", "River Congo", "River Nile", "Zambezi"],
+    "answer": "River Nile",
+    "explanation": "The Nile is the longest river in Africa."
+  },
+  {
+    "id": 11,
+    "question": "The type of rainfall common along coastal areas is:",
+    "answers": ["Convectional rainfall", "Orographic rainfall", "Cyclonic rainfall", "Relief rainfall"],
+    "answer": "Orographic rainfall",
+    "explanation": "Orographic/Relief rainfall occurs when moist air rises over mountains."
+  },
+  {
+    "id": 12,
+    "question": "The dry season in West Africa is caused by:",
+    "answers": ["Land breeze", "Trade winds", "Harmattan", "Sea breeze"],
+    "answer": "Harmattan",
+    "explanation": "Harmattan winds bring dry and dusty air."
+  },
+  {
+    "id": 13,
+    "question": "The height of a place above sea level is called:",
+    "answers": ["Altitude", "Latitude", "Depth", "Gradient"],
+    "answer": "Altitude",
+    "explanation": "Altitude measures elevation relative to sea level."
+  },
+  {
+    "id": 14,
+    "question": "Which of the following countries is landlocked?",
+    "answers": ["Egypt", "Ethiopia", "South Africa", "Ghana"],
+    "answer": "Ethiopia",
+    "explanation": "Ethiopia is landlocked with no access to the sea."
+  },
+  {
+    "id": 15,
+    "question": "A narrow strip of land connecting two larger land masses is called:",
+    "answers": ["Gulf", "Isthmus", "Strait", "Peninsula"],
+    "answer": "Isthmus",
+    "explanation": "An isthmus connects two larger landmasses."
+  },
+  {
+    "id": 16,
+    "question": "Which of the following is an agent of erosion?",
+    "answers": ["Wind", "Soil", "Vegetation", "Rock"],
+    "answer": "Wind",
+    "explanation": "Wind carries particles that erode surfaces."
+  },
+  {
+    "id": 17,
+    "question": "The study of weather over a long period of time is called:",
+    "answers": ["Climate", "Meteorology", "Weathering", "Climatology"],
+    "answer": "Climate",
+    "explanation": "Climate describes average weather conditions over decades."
+  },
+  {
+    "id": 18,
+    "question": "Which layer of the Earth contains molten rock?",
+    "answers": ["Crust", "Mantle", "Inner core", "Lithosphere"],
+    "answer": "Mantle",
+    "explanation": "The mantle contains semi-molten magma."
+  },
+  {
+    "id": 19,
+    "question": "The most populated continent in the world is:",
+    "answers": ["Africa", "Asia", "Europe", "South America"],
+    "answer": "Asia",
+    "explanation": "Asia has more than 4 billion people."
+  },
+  {
+    "id": 20,
+    "question": "The method of farming without soil is called:",
+    "answers": ["Mixed farming", "Hydroponics", "Crop rotation", "Bush fallowing"],
+    "answer": "Hydroponics",
+    "explanation": "Hydroponics grows plants using nutrient solutions instead of soil."
+  },
+  {
+    "id": 21,
+    "question": "A map showing natural features like rivers and mountains is called:",
+    "answers": ["Political map", "Physical map", "Economic map", "Sketch map"],
+    "answer": "Physical map",
+    "explanation": "Physical maps show natural landforms."
+  },
+  {
+    "id": 22,
+    "question": "The rotation of the Earth causes:",
+    "answers": ["Seasonal changes", "Day and night", "Rainfall", "Ocean currents"],
+    "answer": "Day and night",
+    "explanation": "Rotation leads to alternating daylight and darkness."
+  },
+  {
+    "id": 23,
+    "question": "Which of these is a cash crop?",
+    "answers": ["Yam", "Rice", "Cocoa", "Millet"],
+    "answer": "Cocoa",
+    "explanation": "Cocoa is grown mainly for sale and export."
+  },
+  {
+    "id": 24,
+    "question": "Which country is the largest in the world by land area?",
+    "answers": ["Canada", "China", "Russia", "United States"],
+    "answer": "Russia",
+    "explanation": "Russia covers the largest land area globally."
+  },
+  {
+    "id": 25,
+    "question": "A river overflowing its banks results in:",
+    "answers": ["Erosion", "Flooding", "Sedimentation", "Meandering"],
+    "answer": "Flooding",
+    "explanation": "Flooding occurs when water exceeds river capacity."
+  },
+  {
+    "id": 26,
+    "question": "The instrument used to measure wind speed is:",
+    "answers": ["Barometer", "Anemometer", "Rain gauge", "Wind vane"],
+    "answer": "Anemometer",
+    "explanation": "An anemometer measures wind speed."
+  },
+  {
+    "id": 27,
+    "question": "Which of the following is a volcanic mountain?",
+    "answers": ["Mount Kilimanjaro", "Mount Everest", "Atlas Mountains", "Rocky Mountains"],
+    "answer": "Mount Kilimanjaro",
+    "explanation": "Kilimanjaro was formed by volcanic activity."
+  },
+  {
+    "id": 28,
+    "question": "The most common type of rock in the Earth's crust is:",
+    "answers": ["Igneous rock", "Sedimentary rock", "Metamorphic rock", "Volcanic rock"],
+    "answer": "Igneous rock",
+    "explanation": "Igneous rocks form most of the Earth’s crust."
+  },
+  {
+    "id": 29,
+    "question": "The process of water changing into vapour is:",
+    "answers": ["Condensation", "Evaporation", "Precipitation", "Freezing"],
+    "answer": "Evaporation",
+    "explanation": "Evaporation occurs when heat turns water into gas."
+  },
+  {
+    "id": 30,
+    "question": "Which of the following is NOT a type of rainfall?",
+    "answers": ["Convectional", "Orographic", "Cyclonic", "Monsoon"],
+    "answer": "Monsoon",
+    "explanation": "Monsoon is a seasonal wind, not rainfall type."
+  },
+  {
+    "id": 31,
+    "question": "Which of the following uses contour lines?",
+    "answers": ["Road map", "Topographical map", "Political map", "Climate map"],
+    "answer": "Topographical map",
+    "explanation": "Topographic maps use contour lines to show elevation."
+  },
+  {
+    "id": 32,
+    "question": "The spread of desert conditions into previously fertile areas is known as:",
+    "answers": ["Afforestation", "Deforestation", "Desertification", "Leaching"],
+    "answer": "Desertification",
+    "explanation": "Desertification results from overgrazing, drought, and deforestation."
+  },
+  {
+    "id": 33,
+    "question": "Which of the following is a major cash crop in Nigeria?",
+    "answers": ["Cocoa", "Cassava", "Yam", "Plantain"],
+    "answer": "Cocoa",
+    "explanation": "Cocoa is one of Nigeria’s major cash crops."
+  },
+  {
+    "id": 34,
+    "question": "The term 'population density' refers to:",
+    "answers": ["Total number of people in a country", "Number of people per unit area", "Growth rate", "Birth rate"],
+    "answer": "Number of people per unit area",
+    "explanation": "Population density = population ÷ land area."
+  },
+  {
+    "id": 35,
+    "question": "Rainfall is measured using a:",
+    "answers": ["Thermometer", "Rain gauge", "Wind vane", "Barometer"],
+    "answer": "Rain gauge",
+    "explanation": "A rain gauge measures the amount of rainfall."
+  },
+  {
+    "id": 36,
+    "question": "The movement of people from rural to urban areas is called:",
+    "answers": ["Urbanization", "Migration", "Translocation", "Immigration"],
+    "answer": "Urbanization",
+    "explanation": "Urbanization involves the growth of towns and cities."
+  },
+  {
+    "id": 37,
+    "question": "Which layer of the atmosphere contains the ozone layer?",
+    "answers": ["Troposphere", "Stratosphere", "Mesosphere", "Thermosphere"],
+    "answer": "Stratosphere",
+    "explanation": "The ozone layer, which absorbs UV radiation, is found in the stratosphere."
+  },
+  {
+    "id": 38,
+    "question": "Which of the following is a human-made resource?",
+    "answers": ["Air", "Water", "Roads", "Minerals"],
+    "answer": "Roads",
+    "explanation": "Human-made resources are created through human effort."
+  },
+  {
+    "id": 39,
+    "question": "Which country in Africa has the highest population?",
+    "answers": ["Egypt", "Ethiopia", "South Africa", "Nigeria"],
+    "answer": "Nigeria",
+    "explanation": "Nigeria is Africa's most populous country."
+  },
+  {
+    "id": 40,
+    "question": "A narrow body of water that connects two large seas is called a:",
+    "answers": ["Bay", "Isthmus", "Strait", "Lagoon"],
+    "answer": "Strait",
+    "explanation": "A strait is a narrow passage connecting two larger bodies of water."
+  }
+]

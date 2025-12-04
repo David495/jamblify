@@ -41,35 +41,35 @@ const JambSimulator = () => {
           </div>
           <div className='flex flex-col max-w-60 md:max-w-[400px] w-full gap-2' onClick={() => setShowBtn(4)}>
             <Link href="" className='bg-blue-800 rounded hover:bg-blue-800/90 text-white py-2  text-center'>Physics</Link>
-            <Link href="" className={`${showBtn === 4 ? "block" : "hidden"}  px-4 py-2 bg-blue-500 text-white rounded`}>Start Exam</Link>
+            <Link href="/dashboard/simulator/physicsPage" className={`${showBtn === 4 ? "block" : "hidden"}  px-4 py-2 bg-blue-500 text-white rounded`}>Start Exam</Link>
           </div>
           <div className='flex flex-col max-w-60 md:max-w-[400px] w-full gap-2' onClick={() => setShowBtn(5)}>
             <Link href="" className='bg-blue-800 rounded hover:bg-blue-800/90 text-white py-2  text-center'>Chemistry</Link>
-            <Link href="" className={`${showBtn === 5 ? "block" : "hidden"}  px-4 py-2 bg-blue-500 text-white rounded`}>Start Exam</Link>
+            <Link href="/dashboard/simulator/chemistry" className={`${showBtn === 5 ? "block" : "hidden"}  px-4 py-2 bg-blue-500 text-white rounded`}>Start Exam</Link>
           </div>
           <div className='flex flex-col max-w-60 md:max-w-[400px] w-full gap-2' onClick={() => setShowBtn(6)}>
             <Link href="" className='bg-blue-800 rounded hover:bg-blue-800/90 text-white py-2  text-center'>Biology</Link>
-            <Link href="" className={`${showBtn === 6 ? "block" : "hidden"}  px-4 py-2 bg-blue-500 text-white rounded`}>Start Exam</Link>
+            <Link href="/dashboard/simulator/biology" className={`${showBtn === 6 ? "block" : "hidden"}  px-4 py-2 bg-blue-500 text-white rounded`}>Start Exam</Link>
           </div>
           <div className='flex flex-col max-w-60 md:max-w-[400px] w-full gap-2' onClick={() => setShowBtn(7)}>
             <Link href="" className='bg-blue-800 rounded hover:bg-blue-800/90 text-white py-2  text-center'>Accounting</Link>
-            <Link href="" className={`${showBtn === 7 ? "block" : "hidden"}  px-4 py-2 bg-blue-500 text-white rounded`}>Start Exam</Link>
+            <Link href="/dashboard/simulator/accounting" className={`${showBtn === 7 ? "block" : "hidden"}  px-4 py-2 bg-blue-500 text-white rounded`}>Start Exam</Link>
           </div>
           <div className='flex flex-col max-w-60 md:max-w-[400px] w-full gap-2' onClick={() => setShowBtn(8)}>
             <Link href="" className='bg-blue-800 rounded hover:bg-blue-800/90 text-white py-2  text-center'>Computer</Link>
-            <Link href="" className={`${showBtn === 8 ? "block" : "hidden"}  px-4 py-2 bg-blue-500 text-white rounded`}>Start Exam</Link>
+            <Link href="/dashboard/simulator/computer" className={`${showBtn === 8 ? "block" : "hidden"}  px-4 py-2 bg-blue-500 text-white rounded`}>Start Exam</Link>
           </div>
           <div className='flex flex-col max-w-60 md:max-w-[400px] w-full gap-2' onClick={() => setShowBtn(9)}>
             <Link href="" className='bg-blue-800 rounded hover:bg-blue-800/90 text-white py-2  text-center'>Geography</Link>
-            <Link href="" className={`${showBtn === 9 ? "block" : "hidden"}  px-4 py-2 bg-blue-500 text-white rounded`}>Start Exam</Link>
+            <Link href="/dashboard/simulator/geography" className={`${showBtn === 9 ? "block" : "hidden"}  px-4 py-2 bg-blue-500 text-white rounded`}>Start Exam</Link>
           </div>
           <div className='flex flex-col max-w-60 md:max-w-[400px] w-full gap-2' onClick={() => setShowBtn(10)}>
             <Link href="" className='bg-blue-800 rounded hover:bg-blue-800/90 text-white py-2  text-center'>C.R.K</Link>
-            <Link href="" className={`${showBtn === 10 ? "block" : "hidden"}  px-4 py-2 bg-blue-500 text-white rounded`}>Start Exam</Link>
+            <Link href="/dashboard/simulator/crk" className={`${showBtn === 10 ? "block" : "hidden"}  px-4 py-2 bg-blue-500 text-white rounded`}>Start Exam</Link>
           </div>
           <div className='flex flex-col max-w-60 md:max-w-[400px] w-full gap-2' onClick={() => setShowBtn(11)}>
             <Link href="" className='bg-blue-800 rounded hover:bg-blue-800/90 text-white py-2  text-center'>Literature</Link>
-            <Link href="" className={`${showBtn === 11 ? "block" : "hidden"}  px-4 py-2 bg-blue-500 text-white rounded`}>Start Exam</Link>
+            <Link href="/dashboard/simulator/literature" className={`${showBtn === 11 ? "block" : "hidden"}  px-4 py-2 bg-blue-500 text-white rounded`}>Start Exam</Link>
           </div>
         </section>
     </main>

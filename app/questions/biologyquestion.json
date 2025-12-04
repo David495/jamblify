@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "question": "The basic unit of life is the:",
+    "answers": ["Tissue", "Organ", "Cell", "Nucleus"],
+    "answer": "Cell",
+    "explanation": "The cell is the smallest structural and functional unit of living organisms."
+  },
+  {
+    "id": 2,
+    "question": "Which of the following is a characteristic of living organisms?",
+    "answers": ["Decay", "Respiration", "Rusting", "Melting"],
+    "answer": "Respiration",
+    "explanation": "Respiration is a life process common to all living organisms."
+  },
+  {
+    "id": 3,
+    "question": "The process by which green plants make their food is called:",
+    "answers": ["Respiration", "Transpiration", "Photosynthesis", "Germination"],
+    "answer": "Photosynthesis",
+    "explanation": "Photosynthesis uses sunlight to convert CO₂ and water into glucose."
+  },
+  {
+    "id": 4,
+    "question": "Which organelle is responsible for energy production in the cell?",
+    "answers": ["Nucleus", "Mitochondrion", "Ribosome", "Vacuole"],
+    "answer": "Mitochondrion",
+    "explanation": "Mitochondria are the powerhouses of the cell."
+  },
+  {
+    "id": 5,
+    "question": "Which of the following is an example of a vertebrate?",
+    "answers": ["Earthworm", "Snail", "Lizard", "Cockroach"],
+    "answer": "Lizard",
+    "explanation": "Lizards have a backbone, so they are vertebrates."
+  },
+  {
+    "id": 6,
+    "question": "The part of the respiratory system where gaseous exchange occurs is the:",
+    "answers": ["Bronchi", "Alveoli", "Trachea", "Larynx"],
+    "answer": "Alveoli",
+    "explanation": "Alveoli are tiny air sacs where gas exchange takes place."
+  },
+  {
+    "id": 7,
+    "question": "Which blood cells help in fighting diseases?",
+    "answers": ["Red blood cells", "White blood cells", "Platelets", "Plasma"],
+    "answer": "White blood cells",
+    "explanation": "White blood cells protect the body from infections."
+  },
+  {
+    "id": 8,
+    "question": "The reproductive organ in flowering plants is the:",
+    "answers": ["Leaf", "Root", "Stem", "Flower"],
+       "answer": "Flower",
+    "explanation": "Flowers contain the reproductive structures of plants."
+  },
+  {
+    "id": 9,
+    "question": "Which of these is a biotic factor in an ecosystem?",
+    "answers": ["Temperature", "Light", "Soil", "Plants"],
+    "answer": "Plants",
+    "explanation": "Biotic factors are living components of the ecosystem."
+  },
+  {
+    "id": 10,
+    "question": "The organ responsible for pumping blood in humans is the:",
+    "answers": ["Brain", "Kidney", "Heart", "Liver"],
+    "answer": "Heart",
+    "explanation": "The heart pumps blood throughout the body."
+  },
+  {
+    "id": 11,
+    "question": "Which vitamin is responsible for blood clotting?",
+    "answers": ["Vitamin A", "Vitamin C", "Vitamin K", "Vitamin D"],
+    "answer": "Vitamin K",
+    "explanation": "Vitamin K is essential for the clotting process."
+  },
+  {
+    "id": 12,
+    "question": "An organism that feeds on dead organic matter is known as a:",
+    "answers": ["Carnivore", "Producer", "Decomposer", "Herbivore"],
+    "answer": "Decomposer",
+    "explanation": "Decomposers break down dead organisms and recycle nutrients."
+  },
+  {
+    "id": 13,
+    "question": "The functional unit of the kidney is the:",
+    "answers": ["Neuron", "Nephron", "Alveolus", "Ovary"],
+    "answer": "Nephron",
+    "explanation": "Nephrons filter blood and form urine."
+  },
+  {
+    "id": 14,
+    "question": "Which kingdom contains organisms that are prokaryotic?",
+    "answers": ["Animalia", "Plantae", "Monera", "Fungi"],
+    "answer": "Monera",
+    "explanation": "Members of kingdom Monera (like bacteria) are prokaryotic."
+  },
+  {
+    "id": 15,
+    "question": "The pigment responsible for green colour in plants is:",
+    "answers": ["Haemoglobin", "Chlorophyll", "Carotene", "Melanin"],
+    "answer": "Chlorophyll",
+    "explanation": "Chlorophyll enables photosynthesis and gives plants their green colour."
+  },
+  {
+    "id": 16,
+    "question": "Which part of the brain controls balance and coordination?",
+    "answers": ["Cerebrum", "Cerebellum", "Medulla", "Hypothalamus"],
+    "answer": "Cerebellum",
+    "explanation": "The cerebellum controls muscular coordination and balance."
+  },
+  {
+    "id": 17,
+    "question": "The mode of nutrition in fungi is:",
+    "answers": ["Autotrophic", "Holozoic", "Parasitic", "Saprophytic"],
+    "answer": "Saprophytic",
+    "explanation": "Fungi absorb nutrients from decaying matter."
+  },
+  {
+    "id": 18,
+    "question": "Which of the following is a sexually transmitted infection?",
+    "answers": ["Malaria", "Typhoid", "Gonorrhoea", "Cholera"],
+    "answer": "Gonorrhoea",
+    "explanation": "Gonorrhoea is an STI caused by bacteria."
+  },
+  {
+    "id": 19,
+    "question": "The type of joint found at the shoulder and hip is the:",
+    "answers": ["Hinge joint", "Pivot joint", "Ball and socket joint", "Gliding joint"],
+    "answer": "Ball and socket joint",
+    "explanation": "Ball and socket joints allow movement in all directions."
+  },
+  {
+    "id": 20,
+    "question": "Which process removes metabolic waste from the body?",
+    "answers": ["Respiration", "Excretion", "Reproduction", "Translation"],
+    "answer": "Excretion",
+    "explanation": "Excretion eliminates harmful metabolic waste products."
+  },
+  {
+    "id": 21,
+    "question": "The male gamete in flowering plants is contained in the:",
+    "answers": ["Sepal", "Ovule", "Pollen grain", "Anther"],
+    "answer": "Pollen grain",
+    "explanation": "Pollen grains carry the male gametes (sperm cells)."
+  },
+  {
+    "id": 22,
+    "question": "Organisms that live together and benefit each other are said to exhibit:",
+    "answers": ["Parasitism", "Commensalism", "Mutualism", "Competition"],
+    "answer": "Mutualism",
+    "explanation": "In mutualism, both organisms benefit."
+  },
+  {
+    "id": 23,
+    "question": "Proteins are broken down into:",
+    "answers": ["Glucose", "Amino acids", "Fatty acids", "Glycerol"],
+    "answer": "Amino acids",
+    "explanation": "Amino acids are the building blocks of proteins."
+  },
+  {
+    "id": 24,
+    "question": "Which organ secretes insulin?",
+    "answers": ["Liver", "Pancreas", "Kidney", "Heart"],
+    "answer": "Pancreas",
+    "explanation": "The pancreas secretes insulin to regulate blood sugar."
+  },
+  {
+    "id": 25,
+    "question": "What type of reproduction involves only one parent?",
+    "answers": ["Sexual reproduction", "Binary fission", "Fertilization", "Pollination"],
+    "answer": "Binary fission",
+    "explanation": "Binary fission is an asexual reproductive process."
+  },
+  {
+    "id": 26,
+    "question": "The movement of water molecules through a selectively permeable membrane is:",
+    "answers": ["Diffusion", "Osmosis", "Active transport", "Transpiration"],
+    "answer": "Osmosis",
+    "explanation": "Osmosis is the movement of water across a semi-permeable membrane."
+  },
+  {
+    "id": 27,
+    "question": "Which of the following organisms is unicellular?",
+    "answers": ["Mushroom", "Euglena", "Earthworm", "Fish"],
+    "answer": "Euglena",
+    "explanation": "Euglena is a single-celled organism."
+  },
+  {
+    "id": 28,
+    "question": "The organ used for breathing in fish is the:",
+    "answers": ["Skin", "Lungs", "Gills", "Spiracles"],
+    "answer": "Gills",
+    "explanation": "Gills enable aquatic respiration in fish."
+  },
+  {
+    "id": 29,
+    "question": "Which blood vessel carries blood away from the heart?",
+    "answers": ["Veins", "Arteries", "Capillaries", "Venules"],
+    "answer": "Arteries",
+    "explanation": "Arteries carry oxygenated blood away from the heart."
+  },
+  {
+    "id": 30,
+    "question": "The smallest unit of heredity is the:",
+    "answers": ["Chromosome", "Gene", "DNA", "Protein"],
+    "answer": "Gene",
+    "explanation": "Genes carry hereditary information."
+  },
+  {
+    "id": 31,
+    "question": "Which of these organisms is a parasitic plant?",
+    "answers": ["Cactus", "Mistletoe", "Mango tree", "Maize"],
+    "answer": "Mistletoe",
+    "explanation": "Mistletoe depends on host plants for nutrients."
+  },
+  {
+    "id": 32,
+    "question": "The process by which plants lose water vapor through the stomata is called:",
+    "answers": ["Respiration", "Excretion", "Transpiration", "Osmosis"],
+    "answer": "Transpiration",
+    "explanation": "Transpiration is the evaporation of water from plant leaves."
+  },
+  {
+    "id": 33,
+    "question": "Which part of the cell controls all activities?",
+    "answers": ["Cytoplasm", "Nucleus", "Ribosome", "Mitochondrion"],
+    "answer": "Nucleus",
+    "explanation": "The nucleus is the control center of the cell."
+  },
+  {
+    "id": 34,
+    "question": "The natural place where an organism lives is its:",
+    "answers": ["Niche", "Habitat", "Territory", "Ecosystem"],
+    "answer": "Habitat",
+    "explanation": "Habitat is the natural environment of an organism."
+  },
+  {
+    "id": 35,
+    "question": "Which of the following is an example of a communicable disease?",
+    "answers": ["Kwashiorkor", "Rickets", "Influenza", "Diabetes"],
+    "answer": "Influenza",
+    "explanation": "Influenza is caused by a virus and spreads easily."
+  },
+  {
+    "id": 36,
+    "question": "The organ responsible for filtering blood in humans is the:",
+    "answers": ["Heart", "Kidney", "Liver", "Lungs"],
+    "answer": "Kidney",
+    "explanation": "The kidney filters blood and removes waste."
+  },
+  {
+    "id": 37,
+    "question": "Which of the following is a renewable energy resource?",
+    "answers": ["Coal", "Oil", "Natural gas", "Wind"],
+    "answer": "Wind",
+    "explanation": "Wind energy is renewable and sustainable."
+  },
+  {
+    "id": 38,
+    "question": "The highest level of organization in living things is the:",
+    "answers": ["Cell", "Tissue", "Organ system", "Organism"],
+    "answer": "Organism",
+    "explanation": "Organisms are made up of organ systems working together."
+  },
+  {
+    "id": 39,
+    "question": "Which of the following is needed for blood clotting?",
+    "answers": ["Iron", "Calcium", "Iodine", "Potassium"],
+    "answer": "Calcium",
+    "explanation": "Calcium ions help in blood clot formation."
+  },
+  {
+    "id": 40,
+    "question": "Which of these organisms reproduce by budding?",
+    "answers": ["Amoeba", "Yeast", "Paramecium", "Euglena"],
+    "answer": "Yeast",
+    "explanation": "Yeast reproduces asexually by budding."
+  }
+]
