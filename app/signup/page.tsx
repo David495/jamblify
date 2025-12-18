@@ -11,6 +11,7 @@ import { OAuthProvider } from "appwrite";
 import Header from "../components/Header";
 import Footer from "../components/footer";
 import Script from "next/script";
+import Link from "next/link";
 
 const SignUpPage: React.FC = () => {
   const [name, setName] = useState("");
@@ -142,7 +143,6 @@ const SignUpPage: React.FC = () => {
             {showConfirm ? <Eye /> : <EyeOff />}
           </button>
         </div>
-
         <button
           type="submit"
           disabled={isLoading}
@@ -158,14 +158,14 @@ const SignUpPage: React.FC = () => {
         <div className="flex flex-1 justify-center items-center gap-4">
           <hr className="flex flex-1" /> or <hr className="flex flex-1" />
         </div>
-
         <div
           className="flex justify-center border rounded items-center gap-2 p-2 cursor-pointer hover:bg-gray-100"
           onClick={signUpWithGoogle}
         >
           <Image src={GoogleLogo} alt="Google logo" className="h-10 w-10" />
           Sign up with Google
-        </div>
+          </div>
+          <p>Already have an account? <Link href="login">Login</Link></p>
       </form>
 
       <div className="hidden md:block">

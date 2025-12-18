@@ -1,11 +1,11 @@
 "use client";
-import React, { useEffect } from 'react'
-import { Mail, Phone} from "lucide-react";
+import { useEffect } from 'react'
+import { Mail, Phone } from "lucide-react";
+import Link from 'next/link';
 import WhatsappIcon from ".././../public/whatsapp_icon.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Image from 'next/image';
-// import {useForm, ValidationError} from '@formspree/react'
 
 
 const ContactFormLayout = () => {
@@ -64,17 +64,12 @@ const ContactFormLayout = () => {
             className="border p-2 rounded text-[#838383] bg-white focus:outline-[#051A9F] focus:outline-2"
           />
           <label className="text-white">Message</label>
-          <textarea className="border p-2 rounded text-[#838383] bg-white focus:outline-[#051A9F] focus:outline-2 resize-none h-[150px]" />
+          <textarea className="border p-4 rounded text-[#838383] bg-white focus:outline-[#051A9F] focus:outline-2 resize-none h-[150px]" />
           <button className="text-white rounded py-4 bg-[#160EBA] cursor-pointer hover:bg-[#160EBA]/80">
             Submit
           </button>
         </form>
       </section>
-      <div className="flex justify-center items-center p-8">
-        <button className="px-4 py-3 bg-[#00259F] text-white rounded cursor-pointer hover:bg-[#00259F]/80">
-          See More
-        </button>
-      </div>
       </>
   )
 }

@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import Link from "next/link";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -69,7 +69,7 @@ function TextContents() {
               src={OtherImage}
               alt="Other Image"
               height={100}
-              className="w-full rounded-2xl border-2  border-blue-400 "
+              className="w-full rounded-2xl border-2 dark:border-white  border-blue-400"
             />
             Other
           </Link>

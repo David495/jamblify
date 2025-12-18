@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Plus, Minus } from "lucide-react";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
@@ -35,7 +35,7 @@ const ToggleFaq = () => {
   const [activeFaq, setActiveFaq] = useState<number | null>(null);
 
   const handleToggle = (id: number) => {
-    setActiveFaq(activeFaq === id ? null : id); // toggle open/close
+    setActiveFaq(activeFaq === id ? null : id);
   };
 
   return (
@@ -43,7 +43,7 @@ const ToggleFaq = () => {
       <div className="w-full max-w-[800px]">
         <h1 className="text-3xl font-semibold text-center mb-8">
           Frequently Asked Questions
-        </h1>
+          </h1>
 
         {faqs.map((faq) => (
           <div key={faq.id} className="border-b border-gray-300 py-4">

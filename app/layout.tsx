@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { GeistMono } from "geist/font/mono";
 import { GeistSans } from "geist/font/sans";
 import { ThemeProvider } from "next-themes";
+import {ProfileProvider} from "../app/context/ProfileImageContext"
 
 import "./globals.css";
 
@@ -16,7 +17,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" suppressHydrationWarning>
       <ThemeProvider attribute="class">
         <body className={`${GeistSans.className} ${GeistMono.className} antialiased`}>
-          {children}
+          <ProfileProvider>
+            {children}
+            </ProfileProvider>
         </body>
       </ThemeProvider>
     </html>

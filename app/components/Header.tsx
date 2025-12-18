@@ -11,8 +11,13 @@ const Header = () => {
     setClick(!click);
   };
   return (
-    <header className="flex justify-between items- top-0 p-5 shadow-lg fixed left-0 right-0 bg-white dark:bg-red-400 z-20">
+    <header className="flex justify-between items- top-0 p-5 shadow-lg fixed left-0 right-0 bg-white z-20">
       <div>
+        {
+          click && (
+            <div className="fixed inset-0 bg-black/40" onClick={handleClick}></div>
+          )
+        }
         <Link href="/">
           <Image src={JamblifyLogo} alt="Jamblify Logo" width={50} height={50} />
           </Link>
@@ -21,14 +26,8 @@ const Header = () => {
         <Link href="/" className="dark:text-black">Home</Link>
         <Link href="/about" className="dark:text-black">About</Link>
         <Link href="/contact" className="dark:text-black">Contact</Link>
-        <Link href="/Testimonial" className="dark:text-black">Testimonials</Link>
+        <Link href="/faqs" className="dark:text-black">Faqs</Link>
       </nav>
-      {/* <div className="rounded border border-[#0D0AD6] px-4 py-2">
-          <div className="bg-[#0D0AD6] h-5 w-5 rounded-full"></div>
-
-        </div> */}
-      {/* Getting back to fix the dark-mode-toggle */}
-
       <div className="gap-4 hidden md:flex">
         <Link href="/login">
         <button className="cursor-pointer border border-[#0D0AD6] px-8 py-3 rounded hover:bg-[#0D0AD6] hover:text-white dark:text-black">
@@ -41,7 +40,6 @@ const Header = () => {
           </button>
         </Link>
       </div>
-
       <div className="flex md:hidden z-5">
         <button
           className="cursor-pointer border border-[#0D0AD6] p-2 rounded"
@@ -78,15 +76,13 @@ const Header = () => {
             <Link href="/login">
             <button
               className="border px-8 py-3 rounded cursor-pointer w-full dark:text-black"
-            >
-              
+            >  
                 Log In
               </button>
-              </Link>
-
-            <button className="bg-[#0D0AD6] px-8 py-3 text-white rounded cursor-pointer hover:bg-[#0D0AD6]/80 relative z-10">
+            </Link>
+            <Link href="/signup" className="bg-[#0D0AD6] px-8 py-3 text-white rounded cursor-pointer hover:bg-[#0D0AD6]/80 relative z-10 text-center">
               Sign Up
-            </button>
+              </Link>
           </div>
         </div>
       ) : null}

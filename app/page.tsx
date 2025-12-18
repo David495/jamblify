@@ -38,12 +38,12 @@ const Page = () => {
   return (
     <>
       <Header />
-      <main className="flex flex-col md:flex-row justify-center items-center h-auto md:h-screen max-w-[1300px] mx-auto px-6 py-20 gap-10 mt-20 md:mt-5">
+      <main className="flex flex-col md:flex-row justify-center items-center h-auto md:h-screen max-w-[1200px] mx-auto px-6 py-20 gap-10 mt-20 md:mt-5">
         <section
-          className="max-w-[550px] flex flex-col gap-4 text-center md:text-left"
+          className="max-w-[450px] md:max-w-[300px] lg:max-w-[600px] flex flex-col gap-4 text-center md:text-left"
           data-aos="fade-in"
         >
-          <h1 className="text-[40px] md:text-[50px] leading-tight font-semibold">
+          <h1 className="text-[40px] md:text-[30px] lg:text-[50px]  leading-tight font-semibold">
             Ace Your <strong className="text-[#051A9F]">JAMB</strong> With
             Confidence.
           </h1>
@@ -80,17 +80,16 @@ const Page = () => {
           <Circles />
         </div>
       </main>
-
       <About_layout />
       <div className="flex justify-center items-center">
-        <ReadMore textContent="Read More" />
+        <Link href="about" className="px-4 py-2 rounded hover:bg-[#051A9F]/80 bg-[#051A9F] text-white cursor-pointer">Read More</Link>
       </div>
-
       <ContactFormLayout />
-
+      <Link href="/faqs">
       <h1 className="text-center text-3xl after:content-[''] after:block after:h-2 after:bg-[#051A9F] after:w-24 after:mx-auto after:rounded-2xl cursor-pointer">
         FAQS
-      </h1>
+        </h1>
+        </Link>
       <section className="mt-10 p-4">
         <ToggleFaq />
       </section>
@@ -101,14 +100,10 @@ const Page = () => {
         </h1>
         <p className="text-center p-4">See what our customers say</p>
       </div>
-
       <section className="h-screen">
         <Testimonial />
       </section>
-
       <Cta />
-
-      {/* ChatBase Script */}
       <Script
         id="chatbase-script"
         strategy="afterInteractive"

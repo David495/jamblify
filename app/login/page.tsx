@@ -94,11 +94,6 @@ const Login = () => {
             </button>
           </div>
           <div className="flex gap-4">
-            <input
-              type="checkbox"
-              className="h-5 w-5 rounded-full appearance-none border-2 border-gray-400 checked:bg-[#0D0AD6] checked:before:content-['✓'] checked:before:text-white checked:before:flex checked:before:items-center checked:before:justify-center checked:before:text-sm"
-            />
-            <p className="text-[14px] md:text-[16px]">Remember for 30 days</p>
             <Link href="/forgotPassword" className="text-[14px] md:text-[16px]">
               Forgot Password?
             </Link>
@@ -137,7 +132,7 @@ const Login = () => {
         <Image
           src={LoginImage}
           alt="Log in image"
-          className="w-full hidden md:block"
+          className="w-full max-w-[500px] hidden md:block"
         />
       </div>
       </main>

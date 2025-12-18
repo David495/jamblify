@@ -6,9 +6,6 @@ import Assignment from "../components/Assignment";
 import Simulator from "../components/Simulator";
 import Courses from "../components/Courses";
 import SettingsPage from "../components/Settings";
-import Logout from "../components/Logout";
-import Help from "../components/Help";
-import Quiz from "../components/Quiz";
 import DashHeader from "../components/DashboardHeader";
 import SideBar from "../components/SideBar";
 
@@ -22,9 +19,6 @@ const Dashboard = () => {
     if (openPage === "Simulator") return <Simulator />;
     if (openPage === "Courses") return <Courses />;
     if (openPage === "Settings") return <SettingsPage />;
-    if (openPage === "Logout") return <Logout />;
-    if (openPage === "Help") return <Help />;
-    if (openPage === "Quiz") return <Quiz />;
 
     return <DashHome />;
   };

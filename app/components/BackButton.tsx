@@ -12,13 +12,13 @@ const BackButton = () => {
   }
   return (
     <>
-    <main className='flex justify-around pt-20 pr-32 md:p-30'>
+    <main className='flex justify-around pt-30 pr-32 md:p-30'>
        <div>
-         <button onClick={handleBackButton} className='p-4 bg-gray-400 rounded cursor-pointer'>
+         <button onClick={handleBackButton} className='p-2 bg-gray-400 rounded-full cursor-pointer'>
         <ArrowLeft/>
     </button>
     </div>
-    <div></div>
+        <div></div>
     </main>
     </>
   )

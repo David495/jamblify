@@ -26,9 +26,9 @@ const JambSimulator = () => {
     <DashHeader/>
     <SideBar/>
       <main>
-        <section className='flex justify-center items-center flex-col mt-20'>
-          <h1 className='text-2xl text-gray-700'>Choose the Subjects that you want to practice</h1>
-        <p className='text-gray-400'>You can only practice one at a time</p>
+        <section className='flex justify-center items-center flex-col mt-30'>
+          <h1 className='text-[15px] text-bold md:text-2xl  '>Choose the Subjects that you want to practice</h1>
+        <p>You can only practice one at a time</p>
         </section>
         <section className='flex justify-center items-center flex-col gap-5 p-10'>
           <div className='flex flex-col max-w-60 md:max-w-[400px] w-full gap-2' onClick={() => setShowBtn(1)}>

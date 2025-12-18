@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="grid grid-cols-1 md:grid-cols-4 gap-10 place-items-center">
         <Link href="/">
           <div className="flex flex-col items-center gap-2">
-            <Image src={JamblifyLogo} alt="Jamblify logo" width={100} height={100} />
+            <Image src={JamblifyLogo} alt="Jamblify logo" width={100} height={100}/>
             <p className="text-3xl font-semibold">Jamblify</p>
           </div>
         </Link>
@@ -34,9 +34,9 @@ const Footer = () => {
           <h1 className="font-semibold mb-2">Support</h1>
           <ul className="flex flex-col gap-2">
             <li><Link href="/contact">Contact</Link></li>
-            <li><Link href="/Testimonial">Help Center</Link></li>
-            <li><Link href="/faq">FAQ</Link></li>
-            <li><Link href="/faq">Report a problem</Link></li>
+            <li><Link href="/faqs">Help Center</Link></li>
+            <li><Link href="/faqs">FAQ</Link></li>
+            <li><Link href="/faqs">Report a problem</Link></li>
           </ul>
         </div>
       </div>

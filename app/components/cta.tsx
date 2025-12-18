@@ -1,5 +1,6 @@
 "use client"
-import React, { useEffect } from 'react'
+import { useEffect } from 'react';
+import Link from 'next/link';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
@@ -19,9 +20,9 @@ const Cta = () => {
                   Jamblify helps you stay focused, learn smarter, and get results faster.
             </p>
     <br />
-    <button className="mt-4 px-6 py-3 bg-[#051A9F] rounded hover:bg-[#051A9F]/80 transition-all duration-200 cursor-pointer">
+    <Link href="/signup" className="mt-4 px-6 py-3 bg-[#051A9F] rounded hover:bg-[#051A9F]/80 transition-all duration-200 cursor-pointer">
       Join Jamblify Now
-    </button>
+    </Link>
   </div>
 </section>
   )

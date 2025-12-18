@@ -6,13 +6,12 @@ import "swiper/css/pagination";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import Image from "next/image";
 
-// Image imports 
 import TestimonialImage_one from "./../../public/testimonial_1.png"
 import TestimonialImage_two from "./../../public/testimonial_2.png"
 import TestimonialImage_three from "./../../public/testimonial_3.png"
 import TestimonialImage_four from "./../../public/testimonial_4.png";
 
-const testObject = [
+const swiperContents = [
           {
           id: 1,
           name: "Samuel Agbaji",
@@ -56,9 +55,9 @@ const Testimonial = () => {
         className="mySwiper rounded-lg overflow-hidden"
       >
         {
-          testObject.map((testimony) => (
+          swiperContents.map((testimony) => (
         <SwiperSlide key={testimony.id}>
-            <div className="bg-[#838383] w-full max-w-[1200px] min-h-[450px] px-10 py-16 flex justify-center items-center flex-col gap-4">
+            <div className="bg-[#838383] w-full max-w-[1200px] min-h-[600px] md:min-h-[500px] px-10 py-16 flex justify-center items-center flex-col gap-4">
                 <Image
                 src={testimony.imageContent}
                 alt="Testimonial Image One"
