@@ -46,3 +46,198 @@ body {
 .dot.delay-300 {
   animation-delay: 0.3s;
 }
+
+/* 3D Perspective */
+.perspective {
+  perspective: 800px;
+}
+
+/* Cube wrapper */
+.cube {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  animation: spin 4s infinite linear;
+}
+
+/* Cube faces */
+.cube-face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #1e293b, #020617);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: white;
+  font-weight: 600;
+  box-shadow: inset 0 0 20px rgba(99, 102, 241, 0.4);
+}
+
+.cube-face span {
+  font-size: 0.75rem;
+  margin-top: 4px;
+  opacity: 0.8;
+}
+
+/* Face positioning */
+.front {
+  transform: rotateY(0deg) translateZ(64px);
+}
+
+.back {
+  transform: rotateY(180deg) translateZ(64px);
+}
+
+.right {
+  transform: rotateY(90deg) translateZ(64px);
+}
+
+.left {
+  transform: rotateY(-90deg) translateZ(64px);
+}
+
+.top {
+  transform: rotateX(90deg) translateZ(64px);
+}
+
+.bottom {
+  transform: rotateX(-90deg) translateZ(64px);
+}
+
+/* Animation */
+@keyframes spin {
+  0% {
+    transform: rotateX(0deg) rotateY(0deg);
+  }
+  100% {
+    transform: rotateX(360deg) rotateY(360deg);
+  }
+}
+
+/* ---------- SCENE ---------- */
+.scene {
+  width: 160px;
+  height: 160px;
+  perspective: 900px;
+}
+
+/* ---------- CUBE ---------- */
+.cube-3d {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  animation: cubeSpin 4s infinite ease-in-out;
+}
+
+/* ---------- FACES ---------- */
+.face {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  background: linear-gradient(145deg, #020617, #1e293b);
+  border: 1px solid rgba(99, 102, 241, 0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  color: white;
+  box-shadow:
+    inset 0 0 25px rgba(99, 102, 241, 0.45),
+    0 0 30px rgba(99, 102, 241, 0.25);
+}
+
+/* ---------- POSITIONING ---------- */
+.front {
+  transform: rotateY(0deg) translateZ(80px);
+}
+
+.back {
+  transform: rotateY(180deg) translateZ(80px);
+}
+
+.right {
+  transform: rotateY(90deg) translateZ(80px);
+}
+
+.left {
+  transform: rotateY(-90deg) translateZ(80px);
+}
+
+.top {
+  transform: rotateX(90deg) translateZ(80px);
+}
+
+.bottom {
+  transform: rotateX(-90deg) translateZ(80px);
+}
+
+/* ---------- ANIMATION ---------- */
+@keyframes cubeSpin {
+  0% {
+    transform: rotateX(-20deg) rotateY(0deg);
+  }
+
+  50% {
+    transform: rotateX(20deg) rotateY(180deg);
+  }
+
+  100% {
+    transform: rotateX(-20deg) rotateY(360deg);
+  }
+}
+
+/* ---------- BACKGROUND EFFECTS ---------- */
+.bg-grid {
+  background-image:
+    linear-gradient(rgba(99, 102, 241, .08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(99, 102, 241, .08) 1px, transparent 1px);
+  background-size: 40px 40px;
+  animation: gridMove 10s linear infinite;
+}
+
+@keyframes gridMove {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 40px 40px;
+  }
+}
+
+.bg-glow {
+  background:
+    radial-gradient(circle at center,
+      rgba(99, 102, 241, .35),
+      transparent 60%);
+  animation: glowPulse 3s ease-in-out infinite;
+}
+
+@keyframes glowPulse {
+
+  0%,
+  100% {
+    opacity: 0.6;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.progress-bar {
+  background: linear-gradient(90deg,
+      #6366f1,
+      #22d3ee,
+      #a855f7);
+  box-shadow:
+    0 0 8px rgba(99, 102, 241, .9),
+    0 0 16px rgba(34, 211, 238, .6);
+  transition: width 0.15s linear;
+}
