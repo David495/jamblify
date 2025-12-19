@@ -52,11 +52,6 @@ const SettingsPage = () => {
   const saveChanges = async () => {
     try {
       if (profileImage) localStorage.setItem("profile_image", profileImage);
-      localStorage.setItem("name", name);
-      localStorage.setItem("email", email);
-
-      await account.updateName(name);
-      await account.updateEmail;
 
       toast.success("Profile saved successfully!");
     } catch (error) {
@@ -74,7 +69,6 @@ const SettingsPage = () => {
       toast.error("New passwords do not match.");
       return;
     }
-
     try {
       await account.updatePassword(currentPassword, newPassword);
       toast.success("Password changed successfully!");

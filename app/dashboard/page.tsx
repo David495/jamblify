@@ -11,6 +11,7 @@ import SideBar from "../components/SideBar";
 
 const Dashboard = () => {
   const [openPage] = useState("DashHome");
+  
 
   const renderPage = () => {
     if (openPage === "DashHome") return <DashHome />;

@@ -59,7 +59,6 @@ const AccountingPage = () => {
       if (interval) clearInterval(interval);
       handleSubmit(true);
     }
-
     return () => {
       if (interval) clearInterval(interval);
     };

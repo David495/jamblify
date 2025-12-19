@@ -115,7 +115,7 @@ const DashHome = () => {
       <DashboardHeeader/>
     <section className="flex justify-center items-center flex-col h-screen dark:bg-gray-800">
       <div
-        className="flex-1 justify-center items-center rounded-2xl bg-blue-800 overflow-y-auto px-4 py-6 md:px-20 space-y-4 mt-20 w-[60%]"
+        className="flex-1 justify-center items-center rounded-2xl bg-blue-800 overflow-y-auto px-4 md:px-20 space-y-4 w-[60%]"
         style={{ WebkitOverflowScrolling: "touch" }}
       >
         {messages.map((msg, index) => (

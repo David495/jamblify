@@ -15,7 +15,7 @@ const OtherPage = () => {
   const [isCopied, setIsCopied] = useState(false);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
   const messagesEndRef = useRef<HTMLDivElement>(null);
-  const [text, setText] = useState("Welcome to the Other Text Gen ⚡");
+  const [text] = useState("Welcome to the Other Text Gen ⚡");
 
   const handleInput = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
     const value = e.target.value;
@@ -107,7 +107,7 @@ const OtherPage = () => {
             {messages.map((msg, index) => (
               <div
                 key={index}
-                className={`p-2 sm:p-3 rounded-2xl shadow max-w-[75%] sm:max-w-[90%] whitespace-pre-wrap break-words ${
+                className={`p-2 sm:p-3 rounded-2xl shadow max-w-[75%] sm:max-w-[90%] whitespace-pre-wrap wrap-break-word ${
                   msg.role === "user"
                     ? "bg-blue-600 text-white self-end text-sm sm:text-base"
                     : "bg-white text-black self-start text-sm sm:text-base"

@@ -1,7 +1,6 @@
 "use client";
 import { useEffect } from 'react'
 import { Mail, Phone } from "lucide-react";
-import Link from 'next/link';
 import WhatsappIcon from ".././../public/whatsapp_icon.png";
 import AOS from "aos";
 import "aos/dist/aos.css";

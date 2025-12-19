@@ -30,8 +30,7 @@ export async function POST(req) {
     return NextResponse.json({ output });
   } catch (error) {
     return NextResponse.json(
-      // { error: error.message || "Unknown error" },
-      // { status: 500 }
+      console.error("Error while fetching data : ", error),
       null
     );
   }
