@@ -108,12 +108,12 @@ const DashHome = () => {
   const hasBotReply = messages.some(m => m.role === "assistant");
 
   return (
-    <div className="flex flex-col w-full h-screen overflow-x-hidden">      
+    <>
       <DashHeader />
-      <BackButton />
+    <div className="flex flex-col w-full h-screen overflow-x-hidden">      
       <div className="flex flex-col flex-1 p-4  overflow-y-auto">
         <div className="max-w-2xl w-full mx-auto flex flex-col gap-6">
-          {!input && <h1 className="mt-10 text-center text-2xl p-10 md:p-0">{text}</h1>}
+          {/* {!input && <h1 className="mt-10 text-center text-2xl p-10 md:p-0">{text}</h1>} */}
           {messages.map((msg, index) => (
   <div
     key={index}
@@ -170,7 +170,8 @@ const DashHome = () => {
           </button>
         </div>
       </div>
-    </div>
+      </div>
+      </>
   );
 };
 

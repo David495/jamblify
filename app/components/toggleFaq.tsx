@@ -39,9 +39,9 @@ const ToggleFaq = () => {
   };
 
   return (
-    <section className="flex justify-center items-center flex-col py-16 px-4 bg-gray-50" data-aos="fade-up">
+    <section className="flex justify-center items-center flex-col py-16 px-4 " data-aos="fade-up">
       <div className="w-full max-w-[800px]">
-        <h1 className="text-3xl font-semibold text-center mb-8">
+        <h1 className="text-3xl font-semibold text-center mb-8 dark:text-white">
           Frequently Asked Questions
           </h1>
 
@@ -51,7 +51,7 @@ const ToggleFaq = () => {
               className="flex justify-between items-center cursor-pointer"
               onClick={() => handleToggle(faq.id)}
             >
-              <h2 className="text-lg font-medium text-gray-800">
+              <h2 className="text-lg font-medium text-gray-800 dark:text-white">
                 {faq.question}
               </h2>
               <button
@@ -67,7 +67,7 @@ const ToggleFaq = () => {
                 activeFaq === faq.id ? "max-h-[200px] mt-2" : "max-h-0"
               }`}
             >
-              <p className="text-gray-600 text-sm md:text-base">
+              <p className="text-gray-600 dark:text-white text-sm md:text-base">
                 {faq.answer}
               </p>
             </div>

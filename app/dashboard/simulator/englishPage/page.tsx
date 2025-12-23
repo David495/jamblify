@@ -152,10 +152,10 @@ const EnglishPage = () => {
     <>
       <DashBoardHeader />
       <Toaster position="top-right" />
-      <main className="flex justify-center items-center h-screen flex-col gap-3">
-        <section className="text-center mt-15">
+      <main className="flex justify-center items-center h-screen flex-col">
+        <section className="text-center ">
           <h1
-            className={`text-2xl font-bold ${isTestActive ? "mt-20" : "mt-52"}`}
+            className={`text-2xl font-bold ${isTestActive ? "" : ""}`}
           >
             English Jamb CBT
           </h1>
@@ -181,11 +181,11 @@ const EnglishPage = () => {
             </h1>
           </section>
 
-          <section className="bg-blue-800 p-5 rounded text-white flex flex-col gap-4">
+          <section className="bg-blue-800 p-5 rounded text-white flex flex-col gap-2">
             {currentQuestion.answers.map((answer, index) => (
               <div
                 key={index}
-                className={`flex gap-4 items-center p-2 rounded ${getAnswerClasses(
+                className={`flex gap-2 items-center p-2 rounded ${getAnswerClasses(
                   answer
                 )}`}
               >
@@ -203,7 +203,7 @@ const EnglishPage = () => {
             ))}
 
             {!isTestActive && (
-              <div className="mt-4 p-4 bg-blue-700 rounded">
+              <div className="mt-4 p-2 bg-blue-700 rounded">
                 <h3 className="font-bold text-lg text-green-300">
                   Explanation:
                 </h3>
@@ -218,7 +218,7 @@ const EnglishPage = () => {
             )}
           </section>
 
-          <div className="flex justify-between items-center p-4">
+          <div className="flex justify-between items-center">
             <button
               onClick={handleBack}
               disabled={currentQuestionIndex === 0}

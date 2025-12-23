@@ -1,4 +1,4 @@
-import { Client, Account, Databases, ID } from "appwrite";
+import { Client, Account, Databases, ID, Query } from "appwrite";
 
 const endpoint = process.env.NEXT_PUBLIC_API_ENDPOINT as string;
 const projectId = process.env.NEXT_PUBLIC_PROJECT_ID as string;
@@ -15,3 +15,4 @@ const client = new Client()
 export const databases = new Databases(client);
 export const account = new Account(client);
 export { ID };
+export { Query };

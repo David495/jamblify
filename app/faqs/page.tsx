@@ -72,7 +72,7 @@ const FaqPage = () => {
     <>
       <Header />
       <div className="text-center py-16 px-4 mt-20">
-        <h1 className="text-3xl font-bold text-gray-900">Need Some Help?</h1>
+        <h1 className="text-3xl font-bold text-gray-900 dark:text-white">Need Some Help?</h1>
         <p className="text-gray-600 mt-2">
           Our FAQs can help you with quick answers. If not, reach out via email:
         </p>

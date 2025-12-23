@@ -113,7 +113,7 @@ const DashHome = () => {
   return (
       <>
       <DashboardHeeader/>
-    <section className="flex justify-center items-center flex-col h-screen dark:bg-gray-800">
+    <section className="flex justify-center items-center flex-col h-screen ">
       <div
         className="flex-1 justify-center items-center rounded-2xl bg-blue-800 overflow-y-auto px-4 md:px-20 space-y-4 w-[60%]"
         style={{ WebkitOverflowScrolling: "touch" }}

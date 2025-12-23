@@ -1,9 +1,8 @@
-"use client"
+"use client";
 import Image from "next/image";
-import LoginImage from "./../../public/login.png"
-import GoogleImage from "../../public/google_logo.png"
+import LoginImage from "./../../public/login.png";
+import GoogleImage from "../../public/google_logo.png";
 import Link from "next/link";
-import { LoginFuction } from "../utils/auth";
 import React, { useState } from "react";
 import { Toaster, toast } from "react-hot-toast";
 import { account } from "../utils/appwrite";
@@ -11,168 +10,148 @@ import { OAuthProvider } from "appwrite";
 import { Eye, EyeOff } from "lucide-react";
 import Header from "../components/Header";
 import Footer from "../components/footer";
-import Script from "next/script";
 
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [isLoading, setIsLoading] = useState(false);
-  const [EyeIcon, setEyeIcon] = useState(false);
+  const [showPassword, setShowPassword] = useState(false);
 
-  const handleEyeToggle = (e: React.FormEvent) => {
-    e.preventDefault();
-    setEyeIcon(!EyeIcon);
-  }
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     if (!email || !password) {
-      toast.error('All fields are required');
+      toast.error("All fields are required");
       return;
     }
 
     setIsLoading(true);
-
     try {
       await account.createEmailPasswordSession(email, password);
-      LoginFuction(email, password);
-      toast.success('Login successful');
+      toast.success("Login successful");
       setTimeout(() => (window.location.href = "/dashboard"), 1500);
     } catch (error) {
-      toast.error('Error occurred while logging in');
-      console.error('Error while logging in:', error);
+      toast.error("Error occurred while logging in");
       setIsLoading(false);
     }
-  }
+  };
 
   const loginWithGoogle = async () => {
-    const successUrlRedirect = `${window.location.origin}/dashboard`;
-    const failureRedirectUrl = `${window.location.origin}/login?error=google-failed`;
+    const successUrl = `${window.location.origin}/dashboard`;
+    const failureUrl = `${window.location.origin}/login?error=google-failed`;
+
     try {
       await account.createOAuth2Session(
         OAuthProvider.Google,
-        successUrlRedirect,
-        failureRedirectUrl
+        successUrl,
+        failureUrl
       );
-    } catch (error) {
-      toast.error('Error while signing in with Google');
-      console.error('Error while signing in with Google:', error);
+    } catch {
+      toast.error("Google sign-in failed");
     }
-  }
+  };
 
   return (
     <>
-      <Header/>
-    <main className="flex flex-col md:flex-row justify-center items-center p-10 mt-10 md:mt-5 h-screen overflow-hidden">
+      <Header />
       <Toaster />
-      <div className="flex justify-center items-center flex-col p-5 rounded">
-        <h1 className="text-2xl md:text-3xl font-semibold">Welcome back</h1>
-        <p className="text-[#838383] mt-4">Welcome back, please enter your credentials</p>
-        <form className="flex flex-col p-5 gap-3" onSubmit={handleLogin}>
-          <label>Email</label>
-          <input
-            type="email"
-            placeholder="Enter your email"
-            className="p-2 border border-[#838383] rounded shadow outline-blue-400"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            disabled={isLoading}
-            required
-          />
-          <label>Password</label>
-          <div className="w-full px-3 py-2 shadow flex items-center">
-          <input
-              type={ EyeIcon ?  "text" : "password"}
-            placeholder="Password"
-            value={password} className="border-none outline-none "
-            onChange={(e) => setPassword(e.target.value)}
-            disabled={isLoading}
-            required
-            />
-            <button onClick={handleEyeToggle}>
-              {EyeIcon ? <Eye/> : <EyeOff/>}
-            </button>
+
+      <main className="pt-20 min-h-[calc(100vh-80px)] flex items-center justify-center px-4">
+        <div className="grid md:grid-cols-2 gap-10 max-w-5xl w-full bg-white shadow-lg rounded-xl overflow-hidden">
+          <div className="p-8 md:p-10">
+            <h1 className="text-3xl font-bold mb-2">Welcome back 👋</h1>
+            <p className="text-gray-500 mb-8">
+              Please enter your login details
+            </p>
+
+            <form onSubmit={handleLogin} className="space-y-5">
+              <div>
+                <label className="block mb-1 text-sm font-medium">
+                  Email
+                </label>
+                <input
+                  type="email"
+                  placeholder="you@example.com"
+                  className="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 outline-none"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  disabled={isLoading}
+                />
+              </div>
+              <div>
+                <label className="block mb-1 text-sm font-medium">
+                  Password
+                </label>
+                <div className="flex items-center border rounded-lg px-4 py-3 focus-within:ring-2 focus-within:ring-blue-500">
+                  <input
+                    type={showPassword ? "text" : "password"}
+                    placeholder="••••••••"
+                    className="w-full outline-none"
+                    value={password}
+                    onChange={(e) => setPassword(e.target.value)}
+                    disabled={isLoading}
+                  />
+                  <button
+                    type="button"
+                    onClick={() => setShowPassword(!showPassword)}
+                    className="text-gray-500 hover:text-gray-700"
+                  >
+                    {showPassword ? <Eye size={20} /> : <EyeOff size={20} />}
+                  </button>
+                </div>
+              </div>
+              <div className="flex justify-end">
+                <Link
+                  href="/forgotPassword"
+                  className="text-sm text-blue-600 hover:underline"
+                >
+                  Forgot password?
+                </Link>
+              </div>
+              <button
+                type="submit"
+                disabled={isLoading}
+                className={`w-full py-3 rounded-lg text-white font-semibold transition ${
+                  isLoading
+                    ? "bg-gray-400 cursor-not-allowed"
+                    : "bg-blue-600 hover:bg-blue-700"
+                }`}
+              >
+                {isLoading ? "Logging in..." : "Log in"}
+              </button>
+              <div className="flex items-center gap-3 text-gray-400">
+                <div className="flex-1 h-px bg-gray-300" />
+                OR
+                <div className="flex-1 h-px bg-gray-300" />
+              </div>
+              <button
+                type="button"
+                onClick={loginWithGoogle}
+                className="w-full flex items-center justify-center gap-3 border rounded-lg py-3 hover:bg-gray-50 transition"
+              >
+                <Image src={GoogleImage} alt="Google" className="w-6 h-6" />
+                Continue with Google
+              </button>
+              <p className="text-center text-sm">
+                Don&apos;t have an account?{" "}
+                <Link href="/signup" className="text-blue-600 font-medium">
+                  Sign up
+                </Link>
+              </p>
+            </form>
           </div>
-          <div className="flex gap-4">
-            <Link href="/forgotPassword" className="text-[14px] md:text-[16px]">
-              Forgot Password?
-            </Link>
-          </div>
-          <button
-            type="submit"
-            disabled={isLoading}
-            className={`border p-3 rounded text-xl text-white transition ${
-              isLoading
-                ? "bg-gray-400 cursor-not-allowed"
-                : "bg-[#0D0AD6] hover:bg-[#0D0AD6]/80 cursor-pointer"
-            }`}
-          >
-            {isLoading ? 'Logging in...' : 'Log in'}
-          </button>
-          <div
-            className="border p-3 rounded border-[#838383] cursor-pointer flex items-center justify-center gap-2 hover:bg-gray-50"
-            onClick={loginWithGoogle}
-          >
+          <div className="hidden md:flex items-center justify-center bg-blue-50">
             <Image
-              src={GoogleImage}
-              alt="Google logo"
-              className="h-10 w-10 object-cover hidden md:block"
+              src={LoginImage}
+              alt="Login illustration"
+              className="max-w-md"
             />
-            Sign in with Google
           </div>
-          <p>
-            Don&apos;t have an account?{" "}
-            <Link href="/signup" className="text-blue-500 text-[17px]">
-              Sign Up
-            </Link>
-          </p>
-        </form>
-      </div>
-      <div>
-        <Image
-          src={LoginImage}
-          alt="Log in image"
-          className="w-full max-w-[500px] hidden md:block"
-        />
-      </div>
+        </div>
       </main>
-      <Script
-        id="chatbase-script"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
-          __html: `
-            (function(){
-              if(!window.chatbase || window.chatbase("getState") !== "initialized") {
-                window.chatbase = (...args) => { 
-                  if(!window.chatbase.q) { window.chatbase.q = [] }
-                  window.chatbase.q.push(args)
-                };
-                window.chatbase = new Proxy(window.chatbase, {
-                  get(target, prop){
-                    if(prop === "q") return target.q;
-                    return (...args) => target(prop, ...args);
-                  }
-                });
-              }
-              const onLoad = function() {
-                const script = document.createElement("script");
-                script.src = "https://www.chatbase.co/embed.min.js";
-                script.id = "NR57Wnf0KjNVEHrVv5ykR";
-                script.domain = "www.chatbase.co";
-                document.body.appendChild(script);
-              };
-              if(document.readyState === "complete") {
-                onLoad();
-              } else {
-                window.addEventListener("load", onLoad);
-              }
-            })();
-          `,
-        }}
-      />
-      <Footer/>
-      </>
-  )
-}
+      <Footer />
+    </>
+  );
+};
 
 export default Login;
