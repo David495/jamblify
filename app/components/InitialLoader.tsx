@@ -34,11 +34,9 @@ export default function InitialLoader({ children }: InitialLoaderProps) {
     <>
       {loading && (
         <div className="fixed inset-0 z-50 flex items-center justify-center overflow-hidden bg-black">
-          {/* Animated background */}
           <div className="absolute inset-0 bg-grid" />
           <div className="absolute inset-0 bg-glow" />
 
-          {/* 3D Scene */}
           <div className="scene">
             <div className="cube-3d">
               <div className="face front">🧠</div>
@@ -50,7 +48,6 @@ export default function InitialLoader({ children }: InitialLoaderProps) {
             </div>
           </div>
 
-          {/* Progress bar */}
           <div className="absolute bottom-6 left-1/2 w-[70%] max-w-md -translate-x-1/2">
             <div className="h-1.5 w-full overflow-hidden rounded-full bg-white/10">
               <div

@@ -19,7 +19,6 @@ const Login = () => {
 
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
-
     if (!email || !password) {
       toast.error("All fields are required");
       return;
@@ -56,37 +55,43 @@ const Login = () => {
       <Header />
       <Toaster />
 
-      <main className="pt-20 min-h-[calc(100vh-80px)] flex items-center justify-center px-4">
-        <div className="grid md:grid-cols-2 gap-10 max-w-5xl w-full bg-white shadow-lg rounded-xl overflow-hidden">
-          <div className="p-8 md:p-10">
-            <h1 className="text-3xl font-bold mb-2">Welcome back 👋</h1>
-            <p className="text-gray-500 mb-8">
-              Please enter your login details
+      <main className="pt-20 min-h-[calc(100vh-80px)] flex items-center justify-center px-4 bg-gradient-to-br from-gray-50 to-white dark:from-gray-900 dark:to-gray-800 transition-colors">
+        <div className="grid md:grid-cols-2 gap-8 max-w-5xl w-full bg-white dark:bg-gray-900 shadow-2xl rounded-2xl overflow-hidden transition-colors">
+          {/* Left Form Section */}
+          <div className="p-8 md:p-12">
+            <h1 className="text-4xl font-extrabold mb-3 text-gray-800 dark:text-gray-100">
+              Welcome Back 👋
+            </h1>
+            <p className="text-gray-600 dark:text-gray-300 mb-10">
+              Enter your details to access your account.
             </p>
 
-            <form onSubmit={handleLogin} className="space-y-5">
+            <form onSubmit={handleLogin} className="space-y-6">
+              {/* Email */}
               <div>
-                <label className="block mb-1 text-sm font-medium">
+                <label className="block mb-2 text-sm font-medium text-gray-700 dark:text-gray-300">
                   Email
                 </label>
                 <input
                   type="email"
                   placeholder="you@example.com"
-                  className="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 outline-none"
+                  className="w-full px-4 py-3 border border-gray-300 dark:border-gray-700 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none bg-white dark:bg-gray-800 text-gray-800 dark:text-gray-100 transition"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   disabled={isLoading}
                 />
               </div>
+
+              {/* Password */}
               <div>
-                <label className="block mb-1 text-sm font-medium">
+                <label className="block mb-2 text-sm font-medium text-gray-700 dark:text-gray-300">
                   Password
                 </label>
-                <div className="flex items-center border rounded-lg px-4 py-3 focus-within:ring-2 focus-within:ring-blue-500">
+                <div className="flex items-center border border-gray-300 dark:border-gray-700 rounded-xl px-4 py-3 focus-within:ring-2 focus-within:ring-blue-500 transition bg-white dark:bg-gray-800">
                   <input
                     type={showPassword ? "text" : "password"}
                     placeholder="••••••••"
-                    className="w-full outline-none"
+                    className="w-full outline-none text-gray-800 dark:text-gray-100 bg-transparent"
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
                     disabled={isLoading}
@@ -94,24 +99,28 @@ const Login = () => {
                   <button
                     type="button"
                     onClick={() => setShowPassword(!showPassword)}
-                    className="text-gray-500 hover:text-gray-700"
+                    className="text-gray-400 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200 transition"
                   >
                     {showPassword ? <Eye size={20} /> : <EyeOff size={20} />}
                   </button>
                 </div>
               </div>
+
+              {/* Forgot password */}
               <div className="flex justify-end">
                 <Link
                   href="/forgotPassword"
-                  className="text-sm text-blue-600 hover:underline"
+                  className="text-sm text-blue-600 dark:text-blue-400 hover:underline"
                 >
                   Forgot password?
                 </Link>
               </div>
+
+              {/* Login button */}
               <button
                 type="submit"
                 disabled={isLoading}
-                className={`w-full py-3 rounded-lg text-white font-semibold transition ${
+                className={`w-full py-3 rounded-xl text-white font-semibold transition ${
                   isLoading
                     ? "bg-gray-400 cursor-not-allowed"
                     : "bg-blue-600 hover:bg-blue-700"
@@ -119,32 +128,40 @@ const Login = () => {
               >
                 {isLoading ? "Logging in..." : "Log in"}
               </button>
-              <div className="flex items-center gap-3 text-gray-400">
-                <div className="flex-1 h-px bg-gray-300" />
+
+              {/* OR separator */}
+              <div className="flex items-center gap-3 text-gray-400 dark:text-gray-500">
+                <div className="flex-1 h-px bg-gray-300 dark:bg-gray-600" />
                 OR
-                <div className="flex-1 h-px bg-gray-300" />
+                <div className="flex-1 h-px bg-gray-300 dark:bg-gray-600" />
               </div>
+
+              {/* Google login */}
               <button
                 type="button"
                 onClick={loginWithGoogle}
-                className="w-full flex items-center justify-center gap-3 border rounded-lg py-3 hover:bg-gray-50 transition"
+                className="w-full flex items-center text-black justify-center gap-3 border border-gray-300 dark:border-gray-700 rounded-xl py-3 hover:bg-gray-50 dark:hover:bg-gray-800 transition"
               >
                 <Image src={GoogleImage} alt="Google" className="w-6 h-6" />
                 Continue with Google
               </button>
-              <p className="text-center text-sm">
-                Don&apos;t have an account?{" "}
-                <Link href="/signup" className="text-blue-600 font-medium">
+
+              {/* Sign up link */}
+              <p className="text-center text-sm text-gray-600 dark:text-gray-400 mt-4">
+                Don't have an account?{" "}
+                <Link href="/signup" className="text-blue-600 dark:text-blue-400 font-medium">
                   Sign up
                 </Link>
               </p>
             </form>
           </div>
-          <div className="hidden md:flex items-center justify-center bg-blue-50">
+
+          {/* Right Image Section */}
+          <div className="hidden md:flex items-center justify-center bg-gradient-to-tr from-blue-50 to-white dark:from-blue-900 dark:to-gray-800 transition-colors">
             <Image
               src={LoginImage}
               alt="Login illustration"
-              className="max-w-md"
+              className="max-w-sm"
             />
           </div>
         </div>

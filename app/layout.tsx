@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { GeistMono } from "geist/font/mono";
 import { GeistSans } from "geist/font/sans";
 import { ThemeProvider } from "next-themes";
-import { ProfileProvider } from "../app/context/ProfileImageContext"
+import { ProfileProvider } from "./context/ProfileImageContext";
 import InitialLoader from "./components/InitialLoader";
 
 import "./globals.css";
@@ -19,15 +19,15 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <ThemeProvider attribute="class">
-        <body className={`${GeistSans.className} ${GeistMono.className} antialiased`}>
+      <body className={`${GeistSans.className} ${GeistMono.className} antialiased`}>
+        <ThemeProvider attribute="class">
           <ProfileProvider>
             <InitialLoader>
               {children}
-              </InitialLoader>
-            </ProfileProvider>
-        </body>
-      </ThemeProvider>
+            </InitialLoader>
+          </ProfileProvider>
+        </ThemeProvider>
+      </body>
     </html>
   );
 }

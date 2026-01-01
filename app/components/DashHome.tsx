@@ -1,7 +1,6 @@
 "use client";
 import React, { useState, useRef, useEffect } from "react";
 import DashHeader from "../components/DashboardHeader";
-import BackButton from "../components/BackButton";
 import { ArrowUp, Volume2, Clipboard, Check } from "lucide-react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
@@ -113,7 +112,7 @@ const DashHome = () => {
     <div className="flex flex-col w-full h-screen overflow-x-hidden">      
       <div className="flex flex-col flex-1 p-4  overflow-y-auto">
         <div className="max-w-2xl w-full mx-auto flex flex-col gap-6">
-          {/* {!input && <h1 className="mt-10 text-center text-2xl p-10 md:p-0">{text}</h1>} */}
+          {!input && <h1 className="mt-10 text-center text-2xl p-10 md:p-0">{text}</h1>}
           {messages.map((msg, index) => (
   <div
     key={index}
